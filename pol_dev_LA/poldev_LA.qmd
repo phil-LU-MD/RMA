@@ -89,6 +89,11 @@ h3 {
 <!-- border-bottom: none removes the horizontal line that some Quarto themes draw under headings, and text-decoration: none removes any underline styling applied to the text itself. -->
 ```
 
+```{r}
+#| include: false
+#renv::snapshot() #tells renv to update the lockfile, necessary after updating or installing new libraries
+```
+
 #### Summary
 
 an ideological shift on the continent. what used to be a region dominated by left wing governments is now mostly controlled by right wing governments. incumbents lost in most elections and outsiders fared well. the largest countries (in terms of population and economy) are, however, still governed by a left wing government. Mexico is firmly in the hands of Lopez Obrador's Morena movement (did he create it?) and Brazil has elections in October.

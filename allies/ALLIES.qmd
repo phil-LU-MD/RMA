@@ -29,6 +29,12 @@ body {
 </style>
 ```
 
+```{r}
+#| include: false
+#renv::snapshot() #tells renv to update the lockfile, necessary after updating or installing new libraries
+```
+
+
 ## Title
 
 @kuik2021 (p. x) defines "hedging as insurance-seeking behavior under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position."
