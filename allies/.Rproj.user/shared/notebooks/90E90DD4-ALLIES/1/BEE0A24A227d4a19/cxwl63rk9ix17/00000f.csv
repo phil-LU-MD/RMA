@@ -1,0 +1,82 @@
+"0","renv::init()"
+"1","
+"
+"1","renv: Project Environments for R
+"
+"1","
+"
+"1","Welcome to renv! It looks like this is your first time using renv.
+"
+"1","This is a one-time message, briefly describing some of renv's functionality.
+"
+"1","
+"
+"1","renv will write to files within the active project folder, including:
+"
+"1","
+"
+"1","  - A folder 'renv' in the project directory, and
+"
+"1","  - A lockfile called 'renv.lock' in the project directory.
+"
+"1","
+"
+"1","In particular, projects using renv will normally use a private, per-project
+"
+"1","R library, in which new packages will be installed. This project library is
+"
+"1","isolated from other R libraries on your system.
+"
+"1","
+"
+"1","In addition, renv will update files within your project directory, including:
+"
+"1","
+"
+"1","  - .gitignore
+"
+"1","  - .Rbuildignore
+"
+"1","  - .Rprofile
+"
+"1","
+"
+"1","Finally, renv maintains a local cache of data on the filesystem, located at:
+"
+"1","
+"
+"1","  - ""~/Library/Caches/org.R-project.R/R/renv""
+"
+"1","
+"
+"1","This path can be customized: please see the documentation in `]8;;x-r-help:renv::paths?renv::paths]8;;`.
+"
+"1","
+"
+"1","Please read the introduction vignette with `vignette(""renv"")` for more information.
+"
+"1","You can browse the package documentation online at https://rstudio.github.io/renv/.
+"
+"0","y"
+"1","
+"
+"1","- ""~/Library/Caches/org.R-project.R/R/renv"" has been created.
+"
+"1","The following package(s) will be updated in the lockfile:
+"
+"1","
+"
+"1","# CRAN -----------------------------------------------------------------------
+"
+"1","- renv   [* -> 1.2.4]
+"
+"1","
+"
+"1","The version of R recorded in the lockfile will be updated:
+"
+"1","- R      [* -> 4.5.2]
+"
+"1","
+"
+"1","- Lockfile written to ""~/Documents/R/RMA/allies/renv.lock"".
+"

@@ -1,0 +1,236 @@
+---
+title: "Recent political developments in Latin America"
+subtitle: ""
+format: 
+    html:
+      toc: true
+      toc-location: left
+      toc-depth: 3
+      toc-title: "Countries"
+      toc-float: true
+      include-in-header:
+        - text: |
+            <style>
+            /* Handles the visual rendering of the logo inside the banner */
+            .quarto-title-block .quarto-title-banner {
+              position: relative !important;
+              background-image: url("RMA_logo_white.png") !important;
+              background-repeat: no-repeat !important;
+              background-position: right 10% center !important; /* Distance from right side */
+              background-size: auto 80px !important;            /* Logo height adjustment */
+            }
+            
+            /* Turns the cursor into a pointer icon when hovering over the logo zone */
+            .logo-clickable-zone {
+              cursor: pointer !important;
+            }
+            </style>
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var banner = document.querySelector(".quarto-title-block .quarto-title-banner");
+              if (banner) {
+                // Adds the pointer class to the banner
+                banner.classList.add("logo-clickable-zone");
+                
+                // Triggers the hyperlink when clicking the right side where the logo lives
+                banner.addEventListener("click", function(e) {
+                  var bannerWidth = banner.offsetWidth;
+                  var clickX = e.clientX - banner.getBoundingClientRect().left;
+                  
+                  /* Detects if the click occurred on the right 25% area of the banner banner */
+                  if (clickX > (bannerWidth * 0.75)) {
+                    window.open("https://rma.ac.be", "_blank");
+                  }
+                });
+              }
+            });
+            </script>
+editor: visual
+
+output-file: index.html
+
+bibliography: ../references.bib
+csl: https://www.zotero.org/styles/american-political-science-association #applies the APSA (American Political Science Association) reference style
+
+author: 
+  name: "Philippe Decker"
+  email: "decker.philippe@pm.me"
+  #affiliation: Royal Military Academy
+  
+date: today
+date-format: "short"
+
+# Customizes layout labels and renames PUBLISHED to UPDATED
+language:
+  title-block-published: "UPDATED"
+
+title-block-banner: "#090620"
+title-block-banner-color: "#DB3027"
+
+#abstract: |
+  #This work focuses on the recent political developments in LA
+---
+
+```{=html}
+<style>
+body {
+  text-align: justify;
+}
+</style>
+```
+
+```{=html}
+<style>
+h3 {
+  text-decoration: none;
+  border-bottom: none;
+}
+</style> 
+<!-- border-bottom: none removes the horizontal line that some Quarto themes draw under headings, and text-decoration: none removes any underline styling applied to the text itself. -->
+```
+
+```{r}
+renv::init()
+```
+
+#### Summary
+
+an ideological shift on the continent. what used to be a region dominated by left wing governments is now mostly controlled by right wing governments. incumbents lost in most elections and outsiders fared well. the largest countries (in terms of population and economy) are, however, still governed by a left wing government. Mexico is firmly in the hands of Lopez Obrador's Morena movement (did he create it?) and Brazil has elections in October.
+
+Net changes in the Americas Comparing 2024 to 2019, more countries in the Americas experienced a decline in at least one factor of democratic performance than those with an advance (15 versus 11, respectively) cases of democratic backsliding and state collapse - largest declines in these measures—in El Salvador, Haiti and Nicaragua. There were also some improvements distributed widely across the region, including in Credible Elections (Bolivia, Ecuador, Honduras). GET LATEST DATA FROM 2026 REPORT OUT IN SEPT
+
+profound economic inequality
+
+Since 2023, a succession of radical rightwing populists have won power in Argentina and Chile, Costa Rica and Colombia. In reference to Trump’s tangerine complexion, this has been nicknamed Latin America’s “orange wave”.
+
+See eu eom reports for political dev in la countries
+
+### Argentina
+
+In the 2023 elections, Javier Milei won a resounding victory against Economy Minister Sergio Massa. During the previous Peronist government, annual inflation had reached 138 per cent, and Milei's promise to bring it under control found fertile ground among voters desperate for change. His win marked the beginning of a dramatic ideological shift in Argentina and the wider region; which had been dominated by left-wing governments for much of the preceding decade. Milei describes himself as an "anarcho-capitalist" who sees the state as the enemy and vowed to dismantle what he calls the political caste. His win also marked the beginning of Argentina's realignment with the West, in particular the US.
+
+Milei triumphed again at the midterm elections in October 2025, with his party securing a majority in the legislature. Prior to those elections, the US announced considerable financial assistance to shore up Argentina's economy (an up to \$40 billion bailout package), and President Trump made clear he would consider rescinding it in the event of an opposition victory. While Milei succeeded in bringing inflation under control, the social cost of deep cuts to public spending has dented his initial popularity. His image as an anti-corruption candidate has also taken severe blows, as Milei himself and members of his inner circle have been accused of illicit enrichment. His spokesperson and head of cabinet, Manuel Adorni, was compelled to resign at the end of June 2026 after failing to account for the origin of his sudden and substantial wealth.
+
+In December 2023, Milei rejected the invitation, received during his predecessor's mandate, to join the enlarged BRICS+ bloc. While during his campaign he vowed to sever all ties with Communist China, this has not materialised in practice given Argentina's reliance on China as a major trading partner and source of financial support, including a significant currency swap line with the People's Bank of China. Milei's administration has also not formally withdrawn from China’s Belt and Road Initiative, which Argentina joined in 2022 with pledges of over \$23 billion in Chinese financing and investment. However, criticism of China and its Communist leadership continues among members of the administration. On 30 August 2026, shortly after the devastating floods and landslides on the Nepal-China border, the National Director of Digital Communication, Juan Pablo Carreira @carreira_2026_china , published a post on X blaming the management of the Communist Party for the disaster, provoking a formal rebuke from the Chinese embassy [-@chinaembarg_2026_declaracion] in Buenos Aires.
+
+The next general elections are scheduled for October 2027. Most polls still show Milei ahead, though with a growing share of undecided voters.
+
+### Bolivia
+
+The 2025 general elections took place amidst divisions in the ruling Movimiento al Socialismo – Instrumento Político por la Soberanía de los Pueblos (MAS-IPSP). Former President Evo Morales, after losing an internal power struggle within the party he founded and from which he was subsequently expelled, sought to advance his candidacy, despite a legal ban to compete. He attempted to do so through a party that was later disqualified for not meeting the threshold requirement in the previous elections. Morales reacted by initiating calls to obstruct the electoral process, resulting in roadblocks and violence in pockets across the country. However, he then pivoted to promote a protest vote during the first-round campaign, urging his supporters to cast an invalid vote on 17 August. Prior to the elections, a new generation of progressive leaders under 40 emerged, including Senate President Andrónico Rodríguez, former Government Minister Eduardo del Castillo, and El Alto Mayor Eva Copa, rooted in the MAS-IPSP legacy but adopting more moderate positions than their predecessors. Reflecting its internal fragmentation, the MAS-IPSP camp contested the elections without a single unified candidacy for the first time in two decades.
+
+After an early failed attempt at unification behind a common candidate, the opposition went to the polls with three leading figures: businessman Samuel Doria Medina, engineer Jorge ‘Tuto’ Quiroga, both perennial presidential contenders, and Manfred Reyes Villa, Mayor of Cochabamba, who were, to varying degrees, seen as the old guard attempting political renewal. Tarija’s Senator and former Mayor Rodrigo Paz Pereira sought to position himself as an alternative to the traditional opposition.
+
+Bolivia es un país plurinacional con una composición étnica diversa: 40,6 % de los bolivianos mayores de 15 años se autoidentificaron como pertenecientes a un pueblo indígena
+
+Morales fue elegido presidente en diciembre de 2005 con un amplio respaldo popular, convirtiéndose en el primer mandatario indígena de Bolivia. Su llegada al poder marcó el inicio de una nueva etapa política caracterizada por un proceso de reforma constitucional, una redefinición del rol del Estado en la economía y una mayor visibilización de los sectores históricamente excluidos.
+
+Cerimedo fue asesor en comunicación digital de la campaña de Paz, quien con su victoria en 2025 puso fin a dos décadas de gobiernos de izquierda. "Terminada la campaña, él siguió colaborando a la gestión del presidente específicamente, (aunque) no ha ocupado un cargo específico en la estructura del Estado", dijo el portavoz presidencial José Luis Gálvez esta semana.
+
+Pero el vicepresidente boliviano, Edmand Lara, afirmó que Cerimedo "tuvo poder y decidió en el gobierno" de Paz, con quien está enfrentado, y exigió que se explique cómo llegó el argentino a Boliva.
+
+Luego del arresto de su asesor, Paz expresó en la red X su solidaridad con Beller y sostuvo que la mujer cuenta con "todas las garantías necesarias" en el caso, que pidió investigar. En cambio, Beller dijo convaleciente al medio boliviano DTV que el gobierno es "el principal interesado" en callarla y aseguró tener pruebas de presuntos negocios irregulares de Paz y su familia.[^1]
+
+[^1]: <https://www.bbc.com/mundo/articles/clyx45xkzzyo>
+
+Tras desatarse el escándalo esta semana, Morales definió a Cerimedo como "agente del imperio" y Sheinbaum lo señaló como un operador político que difundía mentiras y ofensas en las redes junto al español Javier Negre, otro director de medios derechistas que adquirió parte de La Derecha Diario.
+
+### Brazil
+
+October’s vote will pit the leftwing incumbent, Luiz Inácio Lula da Silva, against the far-right senator Flávio Bolsonaro, son of the former president Jair Bolsonaro, a Donald Trump ally who is serving a 27-year sentence for plotting a military coup.
+
+Polls suggest a tight race and Trump and his secretary of state, Marco Rubio, have been accused of trying to tip the scales in Bolsonaro’s favour by launching an overt campaign of economic and diplomatic pressure against Lula.
+
+The US measures include imposing 25% tariffs on most Brazilian imports and designating Brazil’s biggest crime groups – Rio’s Red Command and São Paulo’s First Command of the Capital – as foreign terrorist organisations. Brazilian officials suspect this is partly designed to boost Bolsonaro by making Lula look soft on crime.
+
+In July, Lula said two Trump officials had been denied entry visas because they planned “to meddle in Brazil’s ​elections”. Brazilian officials believe the pair, who reportedly planned to meet Flávio Bolsonaro, intended to sow doubt about the reliability of Brazil’s internationally respected voting system – something the Bolsonaros have sought to do repeatedly. Soon after, the visa of Brazil’s ambassador to Washington was revoked.
+
+But Barros sees one key difference between the two US gambits. “\[The 1962 campaign\] was done covertly, precisely because the CIA knew there would be real public anger in Brazil if people knew the US was bankrolling candidates. So they did it secretly,” he said. “Today, this is being done openly – and on an incomparably larger scale.”
+
+Barros is convinced the US aims to help elect Flávio Bolsonaro, “because Flávio will give them everything they want”, he said. “Flávio will make a rare earths deal no other president would. Flávio will let American big techs do whatever they like in Brazil. Flávio will reduce economic relations with China as much as he can.” see also the grand continent article!!
+
+US accused of meddling in elections @phillips_2026_brazil
+
+### Chile
+
+### Colombia
+
+Abelardo is a US citizen (dual citizenship).
+
+### Costa Rica
+
+### Cuba
+
+Cuba under oil blockade since ? By US. Before a large beneficiary of Venezuelan oil support has no to severly rationise the little fuel it has left. Many airlines stopped flying to the island because it has no kerosine to refuel the planes (confirm) and puts another hard hit to one of the biggest economic sectors (confirm). Only one tanker made it during that period - a russian tanker that broke the blockade. Mexico is politically voicing its support to Cuba but it is not delivering the supply it needs. The stated aim of the US is to provoke a regime change by the local population. Also a direct military intervention cannot be excluded. Meanwhile, Cuba has given signs to make important concessions to the US (like?)
+
+Rubio, the son of Cuban immigrants, who has made toppling Cuba’s communist government a personal project.
+
+### Dominican Republic
+
+### Ecuador
+
+used to be one of the safest countries in the region, has now one of the highest homicide rates despite its president claiming to be tough on crime.
+
+Daniel Noboa is a US citizen and close Trump ally.
+
+Noboa is the son of the country's richest billionaire oligarch.
+
+### El Salvador
+
+The GSoD (Global State of Democracy) Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+### Guatemala
+
+The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+### Haiti
+
+The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+### Honduras
+
+Cerimedo tuvo un rol destacado en la campaña que llevó a Nasry Asfura a la presidencia de Honduras y hasta se atribuyó haber promovido el mensaje de apoyo que el presidente de Estados Unidos, Donald Trump, dio al candidato conservador en su red Truth Social antes de los comicios.
+
+En los audios difundidos en la red social, atribuidos a Cerimedo, señalado como asesor de la campaña del Partido Nacional, se le escucha afirmar que introdujeron votos a favor del candidato Nasry Asfura en determinadas urnas y que retiraron sufragios que no les favorecían. Además, el consultor instruye explícitamente a los operadores locales a no aceptar el recuento voto por voto, una petición que la candidata de izquierda Rixi Moncada ya había formulado el mismo día de los comicios al denunciar irregularidades en el proceso.
+
+mention JOHs trajectory
+
+### Mexico
+
+### Nicaragua
+
+The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+### Panama
+
+### Paraguay
+
+The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+### Peru
+
+Carlos Espá was appointed Foreign Minister by President Keiko Fujimori when she was inaugurated on 28 July 2026. From 2008 to 2023, Espá served as communications director in the press and culture department of the US Embassy in Lima. Bloomberg titled "Peru's new foreign minister is Fujimori's clearest nod to US over China yet."[^2] Espá confirmed Peru would join Trump's Shield of the Americas coalition as part of Fujimori's crackdown on crime, and described the US as a "strategic partner."
+
+[^2]: <https://www.bloomberg.com/news/articles/2026-08-03/peru-s-new-foreign-minister-is-fujimori-s-clearest-nod-to-us-yet>
+
+### Uruguay
+
+### Venezuela
+
+The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+
+The Trump administration deposed and captured Ms. Rodríguez’s predecessor, Nicolás Maduro, in January, transforming a country that had been an adversary into something resembling a client state. As part of the process, the administration made Venezuela’s oil central to its campaign to expand U.S. influence over energy in the Americas, where rising production has helped blunt the loss of oil coming out of the Middle East over the past six months because of the Iran war.[^3] Venezuela is thought to have the world’s largest oil reserves.
+
+[^3]: <https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html>
+
+A major oil deal was announced on 29 August, virtually doubling the US oil reserves (see specifics). The US used its power to push an asset grab instead of using US leadership to re-establish constitutional rule and democracy first, and then deal with a legitimate government that could have made credible long-term commitments, in due course.
+
+President Trump said on Sunday that the highly unusual agreement he reached to control a huge portion of Venezuela’s oil reserves would allow the United States to refill the Strategic Petroleum Reserve, which he has been drawing down amid the war with Iran. But that’s unlikely to happen in the short term: Many of the details of the agreement are unclear and new oil projects can take years to get off the ground.
+
+In a social media post on Sunday, President Trump said he would use the oil from his deal in Venezuela to refill the United States’ stockpile of oil, but that’s something of a pipe dream — at least in the short term.
+
+The agreement, announced last week, covers some 65 billion barrels of reserves in the oil-rich country, and amounts to a highly unusual foray involving a partnership with a private company. But many of its details remain unknown, and that’s just one complication for a process that Mr. Trump said would “begin very shortly.”
+
+Many Venezuelans suspected that there was going to be a price to pay for President Trump’s brazen capture of their autocratic leader, Nicolás Maduro, who was arrested by U.S. forces in January.
+
+On Friday, that cost became clear when Mr. Trump announced that the U.S. would be taking majority control of a vast part of Venezuela’s oil reserves

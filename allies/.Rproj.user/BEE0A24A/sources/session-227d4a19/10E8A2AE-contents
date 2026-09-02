@@ -1,0 +1,72 @@
+---
+title: "Alignment Logics and Layers in International Engagement Strategies (ALLIES)"
+subtitle: "Royal Military Academy"
+author: 
+  name: "Philippe Decker"
+  email: "decker.philippe@pm.me"
+  
+date: today
+date-format: "short"
+  
+format: html
+editor: visual #tells RStudio to open this file in the visual editor
+
+output-file: index.html
+
+bibliography: ../references.bib
+link-citations: true #creates hyperlinks to the corresponding bibliography entries
+csl: "https://www.zotero.org/styles/apa" #tells Quarto how to format citations and bibliography, can be changed to any style
+
+title-block-banner: "#090620"
+title-block-banner-color: "#DB3027"
+---
+
+```{=html}
+<style>
+body {
+  text-align: justify;
+}
+</style>
+```
+
+## Title
+
+@kuik2021 (p. x) defines "hedging as insurance-seeking behavior under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position."
+
+```{r}
+renv::init()
+```
+
+"hedging is a type of alignment behavior, where a sovereign state positions itself between two or more competing powers, while navigating a broad range of risks and uncertainties under international anarchy" [@kuik2021]. While @kuik2021 argues that "small-state hedging is caused by uncertainty" I argue that hedging is a consequence of interdependence.
+
+**Hedging is implemented without pronouncement.** States do not announce that they are hedging because doing so would invite punishment from both great powers [@kuik2021]. This means the analyst cannot simply look at what states say about their alignment: the behaviour must be inferred from the pattern of purposefully contradictory acts, simultaneously pleasing and displeasing each great power selectively.
+
+**The two chessboards.** @kuik2021 distinguishes between the high-politics military chessboard, where the US retains dominance, and the low-politics economic and developmental chessboard, where China has made the most significant gains. The key insight is that China's influence in Southeast Asia is not primarily a function of military intimidation but of its role as an indispensable supplier of what ruling elites need domestically: infrastructure, trade, development finance, and the legitimacy that comes from economic growth. The US, by focusing overwhelmingly on the military chessboard, has systematically neglected the economic chessboard and thereby ceded influence it could otherwise retain.
+
+**Domestic elite survival drives hedging.** @kuik2021 is explicit that smaller state elites are primarily concerned with domestic survival, not with abstract foreign policy preferences. External relationships are instrumentalised to serve domestic legitimacy and governance goals. This means that hedging is not purely a response to external systemic pressures but is mediated through the lens of what the ruling elite needs to stay in power.
+
+Hedging theory was developed to explain behaviour under conditions of proximate great power rivalry. The US is proximate to Latin America in a way that China is not, which means the hegemonic baseline from Sims and Lee remains relevant: the structure of US hegemony in the Western Hemisphere means that hedging must be read relatively rather than absolutely, as incremental movement away from a hegemonic baseline rather than genuine equidistance.
+
+Panama, maybe it can be argued, tried to hedge as it sold some of its ports to Chinese companies until the US intervened.
+
+Is there still space to hedge in Latin America? case of Brazil (see grand continent article)
+
+Under Lula, it has explicitly pursued strategic autonomy, rejected pressure to sanction Russia, maintained BRI engagement while deepening ties with the EU and US. Kuik's framework would predict that Brazil will continue to hedge as long as the uncertainty about US long-term commitment and Chinese long-term intentions persists, but that the NSS's coercive framing will increase the cost of doing so, potentially pushing Brazil toward more explicit positioning.
+
+some scholars de-emphasize the importance of economic and diplomatic variables. For example, according to @lim2015 (707–12), economic and political factors are “poor signals of security alignment” that involve “minimal tradeoffs” because the contemporary world has been already economically interdependent, and the interstate economic networks are deeper than ever before.
+
+bla bla bla [@sims2025]
+
+adn tho @Koga2017[^1]
+
+[^1]: info on inserting citations: <https://quarto.org/docs/visual-editor/technical.html>
+
+sbfndbf @Medeiros2005
+
+### Brazil
+
+Selon Washington, l’investissement le plus prometteur pour réduire cette dépendance concernerait l’entreprise américaine USA Rare Earth, qui a conclu en avril un accord de 2,8 milliards de dollars pour acquérir la mine brésilienne de Serra Verde, située dans l’État de Goiás.
+
+Il s’agit de la seule mine hors d’Asie qui exploite à l’échelle commerciale un gisement d’argiles ioniques capable de produire l’ensemble des quatre terres rares magnétiques (néodyme, praséodyme, dysprosium et terbium), dont les éléments lourds.[^2]
+
+[^2]: <https://legrandcontinent.eu/fr/2026/08/25/les-etats-unis-peuvent-ils-se-defaire-de-leur-dependance-aux-terres-rares-en-provenance-de-chine/?utm_source=brevo&utm_medium=email&utm_campaign=LLQ%20-%2025%20aout>
