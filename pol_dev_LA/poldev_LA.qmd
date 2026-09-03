@@ -58,7 +58,7 @@ author:
   #affiliation: Royal Military Academy
   
 date: today
-date-format: "short"
+date-format: "D/M/YY"
 
 # Customizes layout labels and renames PUBLISHED to UPDATED
 language:

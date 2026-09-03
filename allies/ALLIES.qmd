@@ -6,7 +6,7 @@ author:
   email: "decker.philippe@pm.me"
   
 date: today
-date-format: "short"
+date-format: "D/M/YY"
   
 format: html
 editor: visual #tells RStudio to open this file in the visual editor
