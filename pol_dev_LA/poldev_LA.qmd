@@ -104,6 +104,8 @@ profound economic inequality
 
 Since 2023, a succession of radical rightwing populists have won power in Argentina and Chile, Costa Rica and Colombia. In reference to Trump’s tangerine complexion, this has been nicknamed Latin America’s “orange wave”.
 
+Chili, profitant de la victoire électorale de José Antonio Kast à l’élection présidentielle de la fin de l’année dernière, ainsi que de la « conquête » par l’extrême droite d’un autre pays de la région. À l’Argentine, au Salvador, à l’Équateur, au Honduras, à la Bolivie et au Chili se sont récemment ajoutés le Pérou, le Costa Rica et la Colombie, dans l’attente des élections brésiliennes du mois d’octobre, au cours desquelles l’actuel président Luis Inácio Lula da Silva affrontera Flávio Bolsonaro
+
 See eu eom reports for political dev in la countries
 
 ### Argentina
@@ -136,23 +138,29 @@ On the foreign policy front, Paz has overseen a significant reorientation of Bol
 
 ### Brazil
 
-October’s vote will pit the leftwing incumbent, Luiz Inácio Lula da Silva, against the far-right senator Flávio Bolsonaro, son of the former president Jair Bolsonaro, a Donald Trump ally who is serving a 27-year sentence for plotting a military coup.
+Brazil enters the 2026 presidential election deeply polarised between left-wing incumbent Luiz Inácio Lula da Silva and far-right senator Flávio Bolsonaro, son of former president Jair Bolsonaro. The election continues the political conflict that has dominated Brazil since Bolsonaro's rise in 2018. Bolsonaro's refusal to accept his defeat by Lula in 2022 culminated in the 8 January 2023 attacks in Brasília, when thousands of his supporters stormed and ransacked the presidential palace, Congress and Supreme Court in an attempt to create conditions for overturning Lula's victory. In September 2025, Bolsonaro was convicted by the Supreme Court of organising a coup and attempting to violently abolish democracy, among other crimes, and sentenced to 27 years and three months in prison. Despite being barred from running, he remains highly influential, and Flávio has emerged as the leading candidate of the Bolsonaro movement. With polls showing Lula and Flávio effectively tied in a potential second round, the election is likely to be one of the closest in recent Brazilian history.
 
-Polls suggest a tight race and Trump and his secretary of state, Marco Rubio, have been accused of trying to tip the scales in Bolsonaro’s favour by launching an overt campaign of economic and diplomatic pressure against Lula.
+Lula's government has combined social redistribution with an attempt to revive Brazilian industry and reduce the country's dependence on commodity exports. The economic environment, however, has become less favourable. GDP grew by 0.5% in the second quarter of 2026, down from 1.1% in the first quarter, while inflation stood at 4.24%, above the central bank's 3% target. The benchmark interest rate remained at 14%, contributing to weaker household consumption and tighter financial conditions [@araujo_2026_brazil_economy].
 
-The US measures include imposing 25% tariffs on most Brazilian imports and designating Brazil’s biggest crime groups – Rio’s Red Command and São Paulo’s First Command of the Capital – as foreign terrorist organisations. Brazilian officials suspect this is partly designed to boost Bolsonaro by making Lula look soft on crime.
+Brazil member of BRICS - move up second last paragraph
 
-In July, Lula said two Trump officials had been denied entry visas because they planned “to meddle in Brazil’s ​elections”. Brazilian officials believe the pair, who reportedly planned to meet Flávio Bolsonaro, intended to sow doubt about the reliability of Brazil’s internationally respected voting system – something the Bolsonaros have sought to do repeatedly. Soon after, the visa of Brazil’s ambassador to Washington was revoked.
+The economic and foreign-policy dimensions are closely connected, particularly through Brazil's relationship with China. Lula wants to reindustrialise Brazil by developing sectors such as electric vehicles, renewable energy and critical minerals, but Chinese companies are increasingly competing in these same industries. At the same time, China is indispensable to Brazil as a market for its agricultural and mineral exports. Brazil therefore needs Chinese trade and investment while also seeking to protect domestic producers from Chinese competition. This creates a structural dilemma that is likely to constrain any government, regardless of its ideological orientation [@debolle_2026_lula_bolsonaro]. The dilemma is particularly pronounced on the Brazilian right. Jair Bolsonaro combined close political alignment with Washington with rhetoric hostile to Beijing, even though his agricultural base depended heavily on Chinese demand for soy, beef and other commodities. Flávio Bolsonaro faces a similar contradiction: he is closely aligned with Donald Trump and would likely seek stronger economic and political ties with Washington, but a substantial reduction in Brazil's dependence on China would conflict with the economic interests of important parts of his electorate [@debolle_2026_lula_bolsonaro].
 
-But Barros sees one key difference between the two US gambits. “\[The 1962 campaign\] was done covertly, precisely because the CIA knew there would be real public anger in Brazil if people knew the US was bankrolling candidates. So they did it secretly,” he said. “Today, this is being done openly – and on an incomparably larger scale.”
+This tension has become increasingly visible in Brazil's relations with the United States. The Trump administration has imposed a 25% tariff on Brazilian imports, designated two of Brazil's largest criminal organisations as foreign terrorist organisations, and adopted increasingly confrontational rhetoric towards the Lula government. Brazilian officials suspect this is partly designed to boost Bolsonaro by making Lula look soft on crime. In July, two Trump officials had been denied entry visas because they planned “to meddle in Brazil’s ​elections” according to Lula [@phillips_2026_brazil].
 
-Barros is convinced the US aims to help elect Flávio Bolsonaro, “because Flávio will give them everything they want”, he said. “Flávio will make a rare earths deal no other president would. Flávio will let American big techs do whatever they like in Brazil. Flávio will reduce economic relations with China as much as he can.” see also the grand continent article!!
+Brazilian concerns about interference have also extended to diplomatic appointments. The US ambassadorial post in Brasília had been vacant since January 2025 and Trump nominated Florida politician Daniel Perez, a close ally of Secretary of State Marco Rubio, on 1 June 2026, shortly before the elections. Brazil has withheld the diplomatic agrément required for him to take up the post arguing that if there was no urgency before it can now also wait until after the elections. Brazilian officials regarded the nomination as particularly sensitive because Washington announced it without first obtaining Brazil's consent, contrary to normal diplomatic practice. The dispute escalated when the United States subsequently revoked the visa of Brazil's ambassador in Washington. Brazilian authorities have presented the episode, together with US pressure over tariffs and the attempted visit of US officials whom Brasília suspected of seeking to influence the election, as part of a broader concern about American interference in Brazil's electoral process [@phillips_2026_brazil].
 
-US accused of meddling in elections @phillips_2026_brazil
+The dispute is particularly significant because Washington's preferred geopolitical orientation would differ substantially from Lula's. Brazil under Lula has strengthened its relationship with China, promoted BRICS and advocated a more multipolar international order. Brazil is also the only Latin American country that is a full member of BRICS. A Bolsonaro-led government would likely move closer to Washington, seek to reduce economic dependence on China and provide greater access for US companies to sectors such as technology and critical minerals. Such a shift would have important implications for Brazil's industrial policy, given that Chinese firms are already deeply involved in many of these strategic sectors [@debolle_2026_lula_bolsonaro].
 
-Only LA country member of BRICS
+The 2026 election is therefore about more than the continuation of Brazil's Lula–Bolsonaro polarisation. It also raises a broader question about the country's international and economic orientation. Lula seeks to preserve strategic autonomy through closer relations with China and BRICS while rebuilding domestic industry; Flávio Bolsonaro represents a potentially much closer alignment with Washington. Yet neither side can easily escape Brazil's structural dependence on both powers.
 
 ### Chile
+
+Le 3 septembre s’est tenue à Santiago du Chili la 5e Rencontre régionale du Forum de Madrid qui se présente comme un réseau de forces d’extrême droite américaines et européennes qui organise des réunions annuelles dans différents pays d’Amérique latine. le Forum de Madrid est devenu l’un des principaux lieux de rencontre de l’extrême droite dans la région. une des têtes d’affiche était le présidents de l’Argentine, Javier Milei, qui dit ceci lors de son discours:
+
+Le Chili est un lieu emblématique car son histoire récente nous rappelle l’immense valeur de la lutte culturelle : après le renversement du communiste Allende, le Chili est entré dans une période de stabilité et de croissance qui s’est prolongée pendant plus de 40 ans et, grâce à cela, il a sans aucun doute fait l’envie de toute la région sur le plan économique.
+
+Milei ne se contente pas de qualifier à tort et de manière péjorative le président socialiste Salvador Allende de « communiste », mais il banalise la dictature de Pinochet au point d’en faire l’éloge en invoquant ses prétendues réussites économiques. Cela a suscité des critiques au Chili, non seulement au sein de l’opposition, mais aussi dans certains parties de la coalition soutenant Kast : alors que le Parti Républicain de l’actuel président chilien, aux sympathies pinochetistes manifestes, a applaudi avec enthousiasme les propos de Milei, ceux-ci ont été rejetés par l’UDI. [@forti_2026_milei]
 
 ### Colombia
 
@@ -230,17 +238,31 @@ Carlos Espá was appointed Foreign Minister by President Keiko Fujimori when she
 
 [^1]: <https://www.bloomberg.com/news/articles/2026-08-03/peru-s-new-foreign-minister-is-fujimori-s-clearest-nod-to-us-yet>
 
+<https://www.nytimes.com/2026/09/07/world/americas/peru-trump-china-economy.html>
+
 ### Uruguay
 
 ### Venezuela
 
 <https://www.nytimes.com/2026/09/01/business/energy-environment/venezuela-oil-trump-deal.html>
 
+L’opération Absolute Resolve, incursion aérienne et héliportée menée le 3 janvier 2026 et ayant abouti à la capture de Nicolás Maduro
+
+Huit mois après l’opération Absolute Resolve qui a conduit à la capture de Nicolás Maduro par les forces spéciales américaines le 3 janvier et la mise en place à Caracas d’« autorités provisoires » issues du régime chaviste mais approuvées par Washington
+
+On 31st August 2026, the White Hosue announced that it has secured U.S. majority control of more than 65 billion barrels of proven oil reserves in Venezuela. This deal secures our energy dominance for the next century—all at zero cost to the United States. The deal, signed by Secretary of State Marco Rubio and Secretary of War Pete Hegseth, gives the U.S. government powerful governance rights, economic ownership, and guaranteed low-cost off-take from a new private Venezuelan oil champion, which will be the second-largest private oil company by reserves in the world [@whitehouse2026_venezuela_oil].
+
+Le Venezuela a cédé d’une manière parfaitement asymétrique sa principale ressource à une entreprise privée dirigée par un oligarque ayant fait fortune dans le chavisme solidement inféodé au pouvoir américain. Cette entreprise est en partie détenue par la puissance protectrice, qui contrôle presque intégralement son conseil d’administration, et ses contrats sont soumis à ses propres lois et tribunaux.
+
 The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
 
-The Trump administration deposed and captured Ms. Rodríguez’s predecessor, Nicolás Maduro, in January, transforming a country that had been an adversary into something resembling a client state. As part of the process, the administration made Venezuela’s oil central to its campaign to expand U.S. influence over energy in the Americas, where rising production has helped blunt the loss of oil coming out of the Middle East over the past six months because of the Iran war.[^2] Venezuela is thought to have the world’s largest oil reserves.
+The Trump administration deposed and captured Ms. Rodríguez’s predecessor, Nicolás Maduro, in January, transforming a country that had been an adversary into something resembling a client state. As part of the process, the administration made Venezuela’s oil central to its campaign to expand U.S. influence over energy in the Americas, where rising production has helped blunt the loss of oil coming out of the Middle East over the past six months because of the Iran war.[^2] Venezuela is thought to have the world’s largest oil reserves. Depuis l’époque de la décolonisation, aucun pays producteur n’a cédé ses principales ressources dans des conditions similaires.
 
 [^2]: <https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html>
+
+Dans ce cadre, à mesure que sa production augmentera, NABEP versera un montant attendu de 200 milliards de dollars de redevances et d’impôts sur les 25 premières années, représentant des recettes et un soutien budgétaire critiques pour les gouvernements vénézuéliens actuels et futurs afin de financer la reconstruction et le développement social.
+
+Le chiffre de 200 milliards de dollars paraît incroyable. Cette somme, répartie sur 25 ans — soit 8 milliards de dollars par an — représenterait, en supposant que la production oscille entre 2 et 2,5 millions de barils par jour, une part revenant à l’État de l’ordre de 10 dollars par baril. Ce chiffre est bien inférieur à toute norme internationale, selon laquelle l’État hôte perçoit généralement entre 50 % et 90 % des bénéfices. Par ailleurs les 200 milliards de dollars promis au Venezuela seront répartis sur un quart de siècle, et la plus grande partie sera versée dans de lointaines années, lorsque la production atteindra son apogée. Or, un dollar dont le paiement est promis dans vingt ans vaut bien moins qu’un dollar reçu aujourd’hui (les fonds immédiatement disponibles peuvent rapporter des intérêts et, surtout, on ne peut pas compter sur le respect d’une promesse aussi lointaine dans le temps) [@legrandcontinent2026_venezuela_recolonisation]
 
 A major oil deal was announced on 29 August, virtually doubling the US oil reserves (see specifics). The US used its power to push an asset grab instead of using US leadership to re-establish constitutional rule and democracy first, and then deal with a legitimate government that could have made credible long-term commitments, in due course.
 
@@ -255,6 +277,10 @@ Many Venezuelans suspected that there was going to be a price to pay for Preside
 On Friday, that cost became clear when Mr. Trump announced that the U.S. would be taking majority control of a vast part of Venezuela’s oil reserves
 
 The Trump administration has cast its deal with Mr. Betancourt as extending U.S. influence in a country where Chinese and Russian companies once exerted considerable control.
+
+"The majority of the incremental oil fields to be operated by NABEP were previously controlled or operated by Russian and Chinese firms, or by corrupt cronies of Maduro and Chavez." press release
+
+L’argument concernant l’exclusion de la Chine et de la Russie confère à ce plan une cohérence géopolitique. Les gisements attribués à la NABEP sont, pour la plupart, ceux où opéraient Rosneft et la CNPC (China National Petroleum Corporation). la solution au « pillage étranger » présenté comme un problème est… le transfert de la ressource à un autre acteur étranger, dans des conditions nominales encore moins favorables pour le pays hôte.
 
 However, tracing the history of Venezuela’s oil fields and the firms involved in them over time can be challenging. The country has not made up-to-date records public, and Venezuela recently redefined some production areas, analysts say.
 
