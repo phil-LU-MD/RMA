@@ -164,15 +164,17 @@ Milei ne se contente pas de qualifier à tort et de manière péjorative le pré
 
 ### Colombia
 
-Abelardo is a US citizen (dual citizenship). took his oath in a military camp, breaking with longstanding protocol.
+The 2026 presidential elections saw the sudden rise and ultimate victory of Abelardo De La Espriella. Backed by Trump [@correal2026_colombia_trump_endorsement], the criminal defence lawyer with no previous political experience represents another win for the far right in Latin America.
 
-Gustavo Petro is a former guerilla member who was elected to the Colombian presidency in 2022.
+Colombia was long dominated by centrist and centre-right parties, with the notable exception of Gustavo Petro's presidency (2022-2026), the country's first left-wing head of state. However, De La Espriella's victory is not simply a return to conservative rule. He portrayed himself as an anti-establishment outsider, an efficient cost-cutter in the spirit of Milei and a hardliner on security in the sense of El Salvador's Nayib Bukele. While projecting an outsider image, he nevertheless chose a respected former commerce minister, José Manuel Restrepo, as his running mate, most likely to broaden his electoral appeal. Once in office, the budget he presented exceeded by 10 per cent that of Petro [@freixes_2026_spending], whom he had criticised throughout the campaign for overspending.
 
-Today, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) is designating Gustavo Francisco Petro Urrego (Gustavo Petro), the President of Colombia, pursuant to counternarcotics-related authorities. In addition, OFAC is also designating several supporters of Gustavo Petro, namely his wife, his son, and a close associate.
+De La Espriella holds dual Colombian and US citizenship and has close ties to the United States, having lived in Florida for more than a decade and been naturalised as a US citizen in 2023. In Miami, he built his reputation representing high-profile Colombian clients, many of them charged with drug trafficking and corruption or linked to right-wing paramilitaries, precisely the kind of clientele he now vows to pursue as president. Shortly after taking his presidential oath of office on 7 August 2026 in Cali, he travelled to the Pichincha Battalion, two kilometres from the inauguration venue, to deliver his inaugural address directly to the commanders of the military and police forces, outlining the main priorities of his administration. He announced that one of his first acts in government would be to sign the Shield of the Americas, the initiative launched by President Trump on 7 March 2026 aimed at countering cartel operations across the region, signalling his intention to take a leading role in the fight against organised crime. Following the example of Bukele in El Salvador, he announced the construction of mega-prisons to house those deemed the greatest threat to public safety. He also announced the resumption of aerial fumigation using herbicides to combat coca plantations, the authorisation of fracking for oil and gas extraction, and the abolition of the wealth tax [@epoch_times_2026_espriella_speech].
 
-“Since President Gustavo Petro came to power, cocaine production in Colombia has exploded to the highest rate in decades, flooding the United States and poisoning Americans,” said Secretary of the Treasury Scott Bessent. “President Petro has allowed drug cartels to flourish and refused to stop this activity. Today, President Trump is taking strong action to protect our nation and make clear that we will not tolerate the trafficking of drugs into our nation.” As a result of today’s action, all property and interests in property of the designated or blocked persons described above that are in the United States or in the possession or control of U.S. persons are blocked and must be reported to OFAC.
+Previous president Petro had pledged sweeping social transformation, yet his reform agenda was repeatedly slowed or blocked by a fragmented Congress, judicial scrutiny, and institutional resistance. His administration presided over moderate economic growth but a meaningful reduction in monetary poverty, which fell from 36.6 per cent in 2022 to 28.0 per cent in 2025 [@dane_2026_poverty]. His flagship *Paz Total* policy fell short of its stated objectives, as negotiations with armed groups produced limited progress while illegal armed actors expanded their territorial control and recruitment. This deteriorating security environment contributed to US sanctions in 2025, when Petro, his wife, his son, and a close associate were placed on the Office of Foreign Assets Control (OFAC) sanctions list for allegedly permitting drug cartels to operate with impunity [@treasury2025_Petro_sanction].
 
-[@treasury2025_Petro_sanction] .
+De La Espriella, by contrast, was rewarded on the day of his inauguration with the announcement of a \$1 billion aid package for Colombia from the United States [@usdos2026_colombia].
+
+relations with Israel. closure of embassies in Jerusalem? recognition of Palestine
 
 ### Costa Rica
 
@@ -196,6 +198,14 @@ Daniel Noboa is a US citizen and close Trump ally.
 
 Noboa is the son of the country's richest billionaire oligarch.
 
+Last month, Ecuador’s president, Daniel Noboa, traveled to China to meet with leaders, a move that risked rankling U.S. officials. Ecuador’s economy is deeply enmeshed with China, which financed a major hydroelectric dam and is the largest buyer of Ecuadorean shrimp. Mr. Noboa told reporters that business with China had to continue.
+
+Noboa dijo este lunes que si bien Estados Unidos es un socio importante en materia de seguridad y lucha contra el crimen organizado, no se puede dejar de lado la relación con países como China y Rusia con quienes —a su criterio— Ecuador tiene un importante vínculo económico.
+
+Ecuador mantiene importantes compromisos con China en cuanto a deuda, proyectos de inversión y ha sido una especie de “salvavidas” en momentos críticos como la pandemia del covid-19 cuando la campaña de vacunación promovida por el entonces presidente Guillermo Lasso logró tener éxito con apoyo de donaciones y compras masivas de vacunas desde el gigante asiático.
+
+actualmente Ecuador mantiene varios frentes abiertos con países como Colombia, México y Cuba por diversos motivos. [@canizares2026_noboa_china]
+
 ### El Salvador
 
 The GSoD (Global State of Democracy) Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
@@ -205,6 +215,8 @@ The GSoD (Global State of Democracy) Social Group Equality index measures the ex
 The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
 
 ### Haiti
+
+<https://www.nytimes.com/2026/09/03/world/americas/haiti-election-gangs.html>
 
 The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
 
@@ -230,6 +242,8 @@ The GSoD Social Group Equality index measures the extent of such equality in eac
 
 ### Peru
 
+Over the past decade, Peru has cycled through nine presidents, four impeachments, repeated waves of mass protests, one attempted self-coup and countless corruption scandals.
+
 very short lived governments in the past. fujimori won with a handful of votes. divided country; split between urban and rural areas. has fujimori a majority in the parliament? how likely is it that she will have a no confidence vote?
 
 pardoning her father
@@ -237,6 +251,32 @@ pardoning her father
 Carlos Espá was appointed Foreign Minister by President Keiko Fujimori when she was inaugurated on 28 July 2026. From 2008 to 2023, Espá served as communications director in the press and culture department of the US Embassy in Lima. Bloomberg titled "Peru's new foreign minister is Fujimori's clearest nod to US over China yet."[^1] Espá confirmed Peru would join Trump's Shield of the Americas coalition as part of Fujimori's crackdown on crime, and described the US as a "strategic partner."
 
 [^1]: <https://www.bloomberg.com/news/articles/2026-08-03/peru-s-new-foreign-minister-is-fujimori-s-clearest-nod-to-us-yet>
+
+Peru’s ambassador in Washington, Luis Miguel Castilla, received a stern phone call in 2015 from the State Department, after U.S. officials learned that a Chinese firm would finance a sprawling new Pacific Coast port project.
+
+Why, they asked, was Peru handing Beijing a strategic foothold in South America?
+
+Mr. Castilla’s answer was blunt: Western investors had already passed.
+
+The port’s Peruvian private sector promoters “came to knock on doors here and in Europe, and no one opened the door,” Mr. Castilla said. “So, any space left behind is space that someone else takes.”
+
+Today, the \$1.3 billion Chinese-backed mega-port in Chancay, north of Lima, the capital, has become the most visible symbol of China’s expanding economic presence in Peru.
+
+It is also a key reason the country, which Secretary of State Marco Rubio is planning to visit this week, has emerged as a testing ground for one of President Trump’s core objectives in Latin America: rolling back Beijing’s influence in the Western Hemisphere.
+
+China has become Peru’s largest trading partner and a major investor in mining, energy and infrastructure — a relationship that has helped underpin one of South America’s most resilient economies.
+
+Even the inauguration in July of President Keiko Fujimori, a staunch conservative who has pledged closer security cooperation with Washington, is unlikely to deliver the anti-China shift the Trump administration seeks.
+
+In addition, China has become a crucial pillar of Peru’s economy. When the 2008 financial crisis cratered U.S. and European demand for minerals, China’s construction boom continued absorbing Peruvian copper and iron. China eventually surpassed the United States as Peru’s largest trading partner and today buys roughly a third of the country’s exports.
+
+“China has been the perfect partner during these years because they bought everything,” said Eduardo Dargent, a Peruvian political analyst.
+
+Beyond trade, Chinese firms have steadily expanded into sectors Western businesses have retreated from — Chinese state-owned enterprises have bought Peruvian infrastructure companies from U.S. and European firms. Today, Chinese companies control Lima’s electricity distribution system and play a role in transportation, banking and telecommunications.
+
+While China has poured money into ports, mines and electricity infrastructure, U.S. engagement has focused on security projects paid for by Peru, including a \$1.5 billion modernization of Peru’s naval base and the purchase of 24 American F-16 fighter jets at a cost of \$3.5 billion.
+
+[@glatsky_2026_peru_china]
 
 <https://www.nytimes.com/2026/09/07/world/americas/peru-trump-china-economy.html>
 
