@@ -96,7 +96,11 @@ h3 {
 
 #### Summary
 
-an ideological shift on the continent. what used to be a region dominated by left wing governments is now mostly controlled by right wing governments. incumbents lost in most elections and outsiders fared well. the largest countries (in terms of population and economy) are, however, still governed by a left wing government. Mexico is firmly in the hands of Lopez Obrador's Morena movement (did he create it?) and Brazil has elections in October.
+an ideological shift on the continent?
+
+En América Latina, el oficialismo perdió en 33 de 36 elecciones en los últimos 6 años (excepciones: México, Paraguay, Rep Dominicana).
+
+what used to be a region dominated by left wing governments is now mostly controlled by right wing governments. incumbents lost in most elections and outsiders fared well. the largest countries (in terms of population and economy) are, however, still governed by a left wing government. Mexico is firmly in the hands of Lopez Obrador's Morena movement (did he create it?) and Brazil has elections in October.
 
 Net changes in the Americas Comparing 2024 to 2019, more countries in the Americas experienced a decline in at least one factor of democratic performance than those with an advance (15 versus 11, respectively) cases of democratic backsliding and state collapse - largest declines in these measures—in El Salvador, Haiti and Nicaragua. There were also some improvements distributed widely across the region, including in Credible Elections (Bolivia, Ecuador, Honduras). GET LATEST DATA FROM 2026 REPORT OUT IN SEPT
 
@@ -164,17 +168,19 @@ Milei ne se contente pas de qualifier à tort et de manière péjorative le pré
 
 ### Colombia
 
-The 2026 presidential elections saw the sudden rise and ultimate victory of Abelardo De La Espriella. Backed by Trump [@correal2026_colombia_trump_endorsement], the criminal defence lawyer with no previous political experience represents another win for the far right in Latin America.
+The 2026 presidential elections saw the sudden rise and ultimate victory of Abelardo De La Espriella. Backed by Trump [@correal2026_colombia_trump_endorsement], the wealthy criminal defence lawyer with no previous political experience represents another win for the far right in Latin America.
 
 Colombia was long dominated by centrist and centre-right parties, with the notable exception of Gustavo Petro's presidency (2022-2026), the country's first left-wing head of state. However, De La Espriella's victory is not simply a return to conservative rule. He portrayed himself as an anti-establishment outsider, an efficient cost-cutter in the spirit of Milei and a hardliner on security in the sense of El Salvador's Nayib Bukele. While projecting an outsider image, he nevertheless chose a respected former commerce minister, José Manuel Restrepo, as his running mate, most likely to broaden his electoral appeal. Once in office, the budget he presented exceeded by 10 per cent that of Petro [@freixes_2026_spending], whom he had criticised throughout the campaign for overspending.
 
 De La Espriella holds dual Colombian and US citizenship and has close ties to the United States, having lived in Florida for more than a decade and been naturalised as a US citizen in 2023. In Miami, he built his reputation representing high-profile Colombian clients, many of them charged with drug trafficking and corruption or linked to right-wing paramilitaries, precisely the kind of clientele he now vows to pursue as president. Shortly after taking his presidential oath of office on 7 August 2026 in Cali, he travelled to the Pichincha Battalion, two kilometres from the inauguration venue, to deliver his inaugural address directly to the commanders of the military and police forces, outlining the main priorities of his administration. He announced that one of his first acts in government would be to sign the Shield of the Americas, the initiative launched by President Trump on 7 March 2026 aimed at countering cartel operations across the region, signalling his intention to take a leading role in the fight against organised crime. Following the example of Bukele in El Salvador, he announced the construction of mega-prisons to house those deemed the greatest threat to public safety. He also announced the resumption of aerial fumigation using herbicides to combat coca plantations, the authorisation of fracking for oil and gas extraction, and the abolition of the wealth tax [@epoch_times_2026_espriella_speech].
 
-Previous president Petro had pledged sweeping social transformation, yet his reform agenda was repeatedly slowed or blocked by a fragmented Congress, judicial scrutiny, and institutional resistance. His administration presided over moderate economic growth but a meaningful reduction in monetary poverty, which fell from 36.6 per cent in 2022 to 28.0 per cent in 2025 [@dane_2026_poverty]. His flagship *Paz Total* policy fell short of its stated objectives, as negotiations with armed groups produced limited progress while illegal armed actors expanded their territorial control and recruitment. This deteriorating security environment contributed to US sanctions in 2025, when Petro, his wife, his son, and a close associate were placed on the Office of Foreign Assets Control (OFAC) sanctions list for allegedly permitting drug cartels to operate with impunity [@treasury2025_Petro_sanction].
+Previous president Petro had pledged sweeping social transformation, yet his reform agenda was repeatedly slowed or blocked by a fragmented Congress, judicial scrutiny, and institutional resistance. His administration presided over moderate economic growth but a meaningful reduction in monetary poverty, which fell from 36.6 per cent in 2022 to 28.0 per cent in 2025 [@dane_2026_poverty]. His flagship *Paz Total* policy fell short of its stated objectives, as negotiations with armed groups produced limited progress while illegal armed actors expanded their territorial control and recruitment. This deteriorating security environment contributed to US sanctions in 2025, when Petro, his wife, his son, and a close associate were placed on the Office of Foreign Assets Control (OFAC) sanctions list for allegedly permitting drug cartels to operate with impunity [@treasury2025_Petro_sanction]. De La Espriella, by contrast, was rewarded on the day of his inauguration with the announcement of a \$1 billion aid package for Colombia from the United States [@usdos2026_colombia].
 
-De La Espriella, by contrast, was rewarded on the day of his inauguration with the announcement of a \$1 billion aid package for Colombia from the United States [@usdos2026_colombia].
+The foreign-policy shift has extended beyond Colombia's closer alignment with Washington to a striking realignment with Israel. Petro had broken diplomatic relations with Israel and adopted a strongly pro-Palestinian position over the Gaza war. De La Espriella has moved in the opposite direction, seeking to restore close political, security and intelligence ties with Israel, announcing plans to move Colombia's embassy to Jerusalem and cancelling Petro's plans to open an embassy in Ramallah. His government went further on 10 August, making Colombia only the second country in the world, after the United States, to officially recognise Israeli sovereignty over the occupied Golan Heights, breaking with the prevailing international position that the territory remains Syrian.
 
-relations with Israel. closure of embassies in Jerusalem? recognition of Palestine
+\- The alignment was also visible in the government's response to the devastating earthquake that struck Colombia three days after De La Espriella took office; although several countries offered assistance, the foreign search-and-rescue teams initially admitted by Bogotá came from the United States, Israel, Ecuador and El Salvador, while teams offered by countries including Mexico and Brazil were not initially accepted.
+
+On ICC -
 
 ### Costa Rica
 
@@ -216,17 +222,39 @@ The GSoD Social Group Equality index measures the extent of such equality in eac
 
 ### Haiti
 
-<https://www.nytimes.com/2026/09/03/world/americas/haiti-election-gangs.html>
+Haitian officials have set elections for Dec. 13, but many experts say extreme violence is likely to force a postponement.
+
+Elections — the first in a decade — are scheduled for Dec. 13, but kidnappings and killings are pervasive.
+
+Mr. Bien-Aimé, a candidate for the Haitian Senate, is one of a growing chorus of voices who believe the Haitian government, under pressure from the United States, has rushed to hold elections at any cost. Critics argue that too many swaths of the Haitian electorate have been forced from their homes and would be unable to cast ballots.
+
+Many people believe the election date is essentially fiction — a goal that even Haitian officials do not believe possible.
+
+But as Haiti enters its second decade without elections to fill a single government office, the push for a return to democracy is real.
+
+While many people argue that you can’t hold elections without security, government officials and some experts strongly argue the opposite: that Haiti will never be safe if it doesn’t start electing its own leaders.
+
+Haiti last held elections in November 2016, when Jovenel Moïse, a banana exporter, was elected amid delays and accusations of widespread fraud. He was assassinated in July 2021, and then the gang violence that had always been common in Haiti quickly spread. In early 2024, it exploded into a kind of war.
+
+Armed groups that had fought each other for years, sometimes doing the bidding of corrupt politicians, joined forces. They attacked police stations, prisons, hospitals and neighborhoods. The prime minister was forced out and the airport was closed for months.
+
+Gangs control some 70 percent of Haiti’s capital, Port-au-Prince, and have spread to other regions outside the city. With the security situation so volatile, elections were postponed several times. The race to elect the legislature is now six years overdue.
+
+The United States has spent hundreds of millions of dollars on security efforts in Haiti, and experts say Washington has been a big factor in pressing Haitian officials to move forward.
+
+[@paultre_robles_2026_haiti_election]
 
 The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
 
 ### Honduras
 
-Cerimedo tuvo un rol destacado en la campaña que llevó a Nasry Asfura a la presidencia de Honduras y hasta se atribuyó haber promovido el mensaje de apoyo que el presidente de Estados Unidos, Donald Trump, dio al candidato conservador en su red Truth Social antes de los comicios.
+Honduras was governed by the conservative *Partido Nacional* for twelve consecutive years, from 2010 to 2022, first under Porfirio Lobo and then under Juan Orlando Hernández (JOH), with the sole interruption being the presidency of Xiomara Castro (2022–2026), wife of Manuel Zelaya, who was ousted in a coup in 2009. The victory of Nasry “Tito” Asfura in the November 2025 elections therefore represented a return to power for the party that had dominated Honduran politics for much of the preceding decade. His victory was exceptionally narrow, with a margin of roughly 27,000 votes, and remains contested as the runner-up, Salvador Nasralla, refuses to recognise the result and alleges electoral fraud. One development that has intensified the allegations is the publication in August 2026 of audio recordings by a former member of the electoral tribunal, Marlon Ochoa, in which Argentine political consultant Fernando Cerimedo, who advised the *Partido Nacional* campaign, is heard stating that votes were introduced in favour of Asfura in certain ballot boxes and that votes unfavourable to the candidate were removed [@duarte2026_cerimedo_honduras].
 
-En los audios difundidos en la red social, atribuidos a Cerimedo, señalado como asesor de la campaña del Partido Nacional, se le escucha afirmar que introdujeron votos a favor del candidato Nasry Asfura en determinadas urnas y que retiraron sufragios que no les favorecían. Además, el consultor instruye explícitamente a los operadores locales a no aceptar el recuento voto por voto, una petición que la candidata de izquierda Rixi Moncada ya había formulado el mismo día de los comicios al denunciar irregularidades en el proceso.
+Asfura's victory was also closely associated with Donald Trump, who openly intervened in the campaign days before the election, endorsing Asfura and warning that US support could be reconsidered if he lost [@wagner2025_honduras_trump]. Two days before the election, Trump also announced a full pardon for Juan Orlando Hernández [@correal2025_honduras_hernandez_pardon], the former president convicted in 2024 by a US federal court of conspiring to import cocaine into the United States and sentenced to 45 years in prison. On paper, JOH had been a close US ally in the fight against drugs, as his governments cooperated extensively with Washington on counternarcotics and security. Yet US prosecutors subsequently alleged that he had used the Honduran state and his political power to facilitate the trafficking of more than 400 tonnes of cocaine to the United States in exchange for millions of dollars in bribes. His younger brother, Juan Antonio “Tony” Hernández, a former Honduran congressman, was arrested in 2018, convicted in the United States of cocaine trafficking, and sentenced to life imprisonment plus 30 years.
 
-mention JOHs trajectory: <https://insightcrime.org/honduras-organized-crime-news/juan-orlando-hernandez/>
+The pardon acquired a new dimension in 2026 following the publication of a series of leaked recordings known as “Hondurasgate”. The recordings, made between January and April 2026 and published in April, purport to document conversations involving Hernández, Asfura and Vice President María Antonieta Mejía. In the recordings, Hernández claims that individuals linked to Israel, including Prime Minister Benjamin Netanyahu, were involved in securing and financing his pardon [@hondurasgate2026_israel_joh]. The recordings further allege that Hernández, with support from Republican allies of Trump and Argentine President Javier Milei, discussed establishing a conservative media operation capable of attacking the governments of Gustavo Petro in Colombia and Claudia Sheinbaum in Mexico, while planning his own return to the Honduran presidency in exchange for granting the United States a new military base and expanded control over Honduras's special economic zones [@hondurasgate2026_nuevos_audios].
+
+The case therefore illustrates a striking paradox. Hernández was convicted by the US justice system after prosecutors accused him of facilitating hundreds of tonnes of cocaine shipments, yet Trump subsequently pardoned him and backed the candidate of Hernández's own party in a closely contested election. The pardon allowed Hernández to return to Honduras and resume his political influence in the country.
 
 ### Mexico
 
@@ -235,6 +263,8 @@ mention JOHs trajectory: <https://insightcrime.org/honduras-organized-crime-news
 The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
 
 ### Panama
+
+Chinese port. US pressured them to change owner?
 
 ### Paraguay
 
