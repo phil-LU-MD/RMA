@@ -96,25 +96,11 @@ h3 {
 
 #### Summary
 
-an ideological shift on the continent?
-
-En América Latina, el oficialismo perdió en 33 de 36 elecciones en los últimos 6 años (excepciones: México, Paraguay, Rep Dominicana).
-
-what used to be a region dominated by left wing governments is now mostly controlled by right wing governments. incumbents lost in most elections and outsiders fared well. the largest countries (in terms of population and economy) are, however, still governed by a left wing government. Mexico is firmly in the hands of Lopez Obrador's Morena movement (did he create it?) and Brazil has elections in October.
-
-Net changes in the Americas Comparing 2024 to 2019, more countries in the Americas experienced a decline in at least one factor of democratic performance than those with an advance (15 versus 11, respectively) cases of democratic backsliding and state collapse - largest declines in these measures—in El Salvador, Haiti and Nicaragua. There were also some improvements distributed widely across the region, including in Credible Elections (Bolivia, Ecuador, Honduras). GET LATEST DATA FROM 2026 REPORT OUT IN SEPT
-
-profound economic inequality
-
-Since 2023, a succession of radical rightwing populists have won power in Argentina and Chile, Costa Rica and Colombia. In reference to Trump’s tangerine complexion, this has been nicknamed Latin America’s “orange wave”.
-
-Chili, profitant de la victoire électorale de José Antonio Kast à l’élection présidentielle de la fin de l’année dernière, ainsi que de la « conquête » par l’extrême droite d’un autre pays de la région. À l’Argentine, au Salvador, à l’Équateur, au Honduras, à la Bolivie et au Chili se sont récemment ajoutés le Pérou, le Costa Rica et la Colombie, dans l’attente des élections brésiliennes du mois d’octobre, au cours desquelles l’actuel président Luis Inácio Lula da Silva affrontera Flávio Bolsonaro
-
-growing bloc of conservative Latin American leaders, reinforcing a rightward shift across the region and potentially bolstering President Trump’s efforts to expand U.S. influence in the hemisphere. china remains an important economic partner for many.
+In recent years, Latin America, a region that used to be dominated by left-wing governments, has seen a rightward shift as a succession of right-wing governments have come to power, starting in Argentina in 2023, followed by Ecuador, Honduras, Bolivia, Chile, as well as Peru, Costa Rica, and Colombia. These changes are in line with the aspirations of the US as reflected in its national security strategy published in November 2025 "to restore American preeminence in the Western Hemisphere" and to "reward and encourage the region's governments \[...\] aligned with our principles and strategy" [@whitehouse2025, 15]. While US influence is undeniable, including direct interference by President Trump in several electoral processes, incumbent governments have lost 33 out of 36 elections in the last six years (the exceptions being Mexico, Paraguay, and the Dominican Republic). Rather than reflecting a straightforward ideological realignment, therefore, the region’s political trajectory appears to be driven in significant part by anti-incumbent sentiment. Voters have increasingly turned to opposition forces, including both established political figures and outsiders to the traditional political system.
 
 ### Argentina
 
-In the 2023 elections, Javier Milei won a resounding victory against Economy Minister Sergio Massa. During the previous Peronist government, annual inflation had reached 138 per cent, and Milei's promise to bring it under control found fertile ground among voters desperate for change. His win marked the beginning of a dramatic ideological shift in Argentina and the wider region; which had been dominated by left-wing governments for much of the preceding decade. Milei describes himself as an "anarcho-capitalist" who sees the state as the enemy and vowed to dismantle what he calls the political caste. His win also marked the beginning of Argentina's realignment with the West, in particular the US.
+In the 2023 elections, Javier Milei won a resounding victory against Economy Minister Sergio Massa. During the previous Peronist government, annual inflation had reached 138 per cent, and Milei's promise to bring it under control found fertile ground among voters desperate for change. His win marked the beginning of a dramatic ideological shift in Argentina and the wider region; which had been dominated by left-wing governments for much of the preceding decade. Milei describes himself as an "anarcho-capitalist" who sees the state as the enemy and vowed to dismantle what he calls the political caste. His win also marked the beginning of Argentina's closer realignment with the US.
 
 Milei triumphed again at the midterm elections in October 2025, with his party securing a majority in the legislature. Prior to those elections, the US announced considerable financial assistance to shore up Argentina's economy (an up to \$40 billion bailout package), and President Trump made clear he would consider rescinding it in the event of an opposition victory. While Milei succeeded in bringing inflation under control, the social cost of deep cuts to public spending has dented his initial popularity. His image as an anti-corruption candidate has also taken severe blows, as Milei himself and members of his inner circle have been accused of illicit enrichment. His spokesperson and head of cabinet, Manuel Adorni, was compelled to resign at the end of June 2026 after failing to account for the origin of his sudden and substantial wealth.
 
@@ -166,7 +152,11 @@ Le 3 septembre s’est tenue à Santiago du Chili la 5e Rencontre régionale du 
 
 Le Chili est un lieu emblématique car son histoire récente nous rappelle l’immense valeur de la lutte culturelle : après le renversement du communiste Allende, le Chili est entré dans une période de stabilité et de croissance qui s’est prolongée pendant plus de 40 ans et, grâce à cela, il a sans aucun doute fait l’envie de toute la région sur le plan économique.
 
-Milei ne se contente pas de qualifier à tort et de manière péjorative le président socialiste Salvador Allende de « communiste », mais il banalise la dictature de Pinochet au point d’en faire l’éloge en invoquant ses prétendues réussites économiques. Cela a suscité des critiques au Chili, non seulement au sein de l’opposition, mais aussi dans certains parties de la coalition soutenant Kast : alors que le Parti Républicain de l’actuel président chilien, aux sympathies pinochetistes manifestes, a applaudi avec enthousiasme les propos de Milei, ceux-ci ont été rejetés par l’UDI. [@forti_2026_milei]
+Milei ne se contente pas de qualifier à tort et de manière péjorative le président socialiste Salvador Allende de « communiste », mais il banalise la dictature de Pinochet au point d’en faire l’éloge en invoquant ses prétendues réussites économiques. Cela a suscité des critiques au Chili, non seulement au sein de l’opposition, mais aussi dans certains parties de la coalition soutenant Kast : alors que le Parti Républicain de l’actuel président chilien, aux sympathies pinochetistes manifestes, a applaudi avec enthousiasme les propos de Milei, ceux-ci ont été rejetés par l’UDI.
+
+[@forti_2026_milei]
+
+<https://www.nytimes.com/2026/08/16/world/americas/trump-americas-visas.html>
 
 ### Colombia
 
@@ -194,11 +184,15 @@ candidate for SG of UN. nominated by CR.
 
 *WORK IN PROGRESS*
 
+<https://www.nytimes.com/2026/09/17/world/americas/trump-sanctions-cuba-shipping-containers.html>
+
 national grid has been collapsing all year under an American energy blockade.
 
 Cuba under oil blockade since ? By US. Before a large beneficiary of Venezuelan oil support has no to severly rationise the little fuel it has left. Many airlines stopped flying to the island because it has no kerosine to refuel the planes (confirm) and puts another hard hit to one of the biggest economic sectors (confirm). Only one tanker made it during that period - a russian tanker that broke the blockade. Mexico is politically voicing its support to Cuba but it is not delivering the supply it needs. The stated aim of the US is to provoke a regime change by the local population. Also a direct military intervention cannot be excluded. Meanwhile, Cuba has given signs to make important concessions to the US (like?)
 
 Rubio, the son of Cuban immigrants, who has made toppling Cuba’s communist government a personal project.
+
+during President Trump’s speech to the United Nations General Assembly on Tuesday, Mr. Trump said Cuba was “an absolutely failed state” and vowed that the government “will fall.” (source of speech)
 
 ### Dominican Republic
 
@@ -222,17 +216,31 @@ Ecuador mantiene importantes compromisos con China en cuanto a deuda, proyectos 
 
 actualmente Ecuador mantiene varios frentes abiertos con países como Colombia, México y Cuba por diversos motivos. [@canizares2026_noboa_china]
 
+<https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio>
+
 ### El Salvador
 
 *WORK IN PROGRESS*
 
-The GSoD (Global State of Democracy) Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+Bukele, first elected in 2019, took an almost opposite approach from Arévalo’s to governing. He purged institutions of his political rivals, packed them with loyalists, and then cut [secret deals](https://www.propublica.org/article/bukele-trump-el-salvador-ms13-gang-vulcan-corruption-investigation?utm_source=chatgpt.com) with gang leaders before cracking down on their followers. His mass roundups virtually eliminated violent crime in his country, by jailing more than 90,000 people suspected of gang ties, many without due process.
+
+[@freeman2026_guatemala_democracy]
 
 ### Guatemala
 
-*WORK IN PROGRESS*
+The political climate in Guatemala is characterised by deep polarisation, the instrumentalisation of the judicial system for political purposes, and the penetration of criminal organisations and sophisticated corruption networks into state institutions \[\@eu_efm_2025_guatemala\]. The country saw a significant political change with the election of Bernardo Arévalo in 2023 and his inauguration in January 2024. His election was followed by months of political uncertainty, as opponents sought to challenge the result through legal and procedural means. The Attorney General's Office and other judicial actors pursued cases against members of Arévalo's *Semilla Movement*, the political party that brought him to power, whose legal status was definitively cancelled in March 2026. Arévalo's victory was initially greeted with considerable optimism, but enthusiasm has since been tempered by frustration among some of his supporters, who had expected more rapid and far-reaching change \[\@freeman2026_guatemala_democracy\].
 
-The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+Arévalo's ability to implement his agenda is constrained by his lack of a majority in Congress and by the broader fragmentation of the political system. He has deliberately sought to pursue reform within the existing constitutional and legal framework rather than confront entrenched interests through extra-legal means. This approach has preserved his commitment to democratic and constitutional procedures, but has also fuelled a debate among reformers over whether such caution is sufficient to dismantle deeply entrenched networks of corruption and political influence \[\@freeman2026_guatemala_democracy\].
+
+Arévalo's administration has nevertheless made progress in some areas of public service provision and institutional reform. The government has expanded recruitment in education and reported improvements in school infrastructure and healthcare provision. However, major legislative initiatives on corruption and judicial reform have been stalled or blocked in a fragmented Congress in which Arévalo lacks a majority.
+
+Cooperation with the United States on counternarcotics and organised crime kept the relationship between both administrations alive but Arévalo's opponents have courted President Trump to try to tip the scales against reformers \[\@freeman2026_guatemala_democracy\]. In March 2026 it was revealed that U.S. embassy staff and the U.S. ambassador to Guatemala himself called reluctant Guatemalan lawmakers to pressure them to approve a controversial Constitutional Court judge linked to drug traffickers and gang members \[<https://www.france24.com/es/minuto-a-minuto/20260306-congreso-reelige-a-cuestionado-magistrado-para-m%C3%A1xima-corte-de-guatemala>\]. This provoked a direct response by president Arévalo whose administration asked for explanations by the U.S. State Department \[<https://elpais.com/america/2026-03-03/arevalo-pide-explicaciones-a-estados-unidos-por-una-supuesta-intervencion-en-la-eleccion-de-magistrados-en-guatemala.html>\]. Ultimately, with the nomination of the contested candidate, Roberto Molina Barreto, the court is tied between reformers and their opponents, leaving Arévalo without a reliable majority.
+
+Guatemala's next general elections are scheduled for 2027. Arévalo is constitutionally barred from seeking a second term and no unifying candidate has emerged yet to consolidate Arévalo's reforms further.
+
+### Guyana
+
+<https://www.nytimes.com/2026/09/19/world/americas/guyana-oil-boom.html>
 
 ### Haiti
 
@@ -275,6 +283,8 @@ The case therefore illustrates a striking paradox. Hernández was convicted by t
 ### Mexico
 
 *WORK IN PROGRESS*
+
+<https://www.nytimes.com/2026/09/23/world/americas/trump-mexico-trade-relations.html>
 
 ### Nicaragua
 
@@ -320,7 +330,7 @@ On 31 August 2026, the White House announced that it had secured majority US con
 
 The interim leader, Delcy Rodríguez, has emphasised the substantial financial resources that the Venezuelan state stands to receive from the agreement. A figure of \$200 billion has been cited, to be transferred over 25 years. Although this sum appears substantial, \$200 billion spread over 25 years amounts to approximately \$8 billion per year. Assuming production of between 2 and 2.5 million barrels per day, this would represent a state take of roughly \$10 per barrel. That figure falls well below the level suggested by international benchmarks, under which a host state typically receives between 50 and 90 per cent of profits. Moreover, much of the promised \$200 billion would reportedly be paid in the distant future, when production reaches its peak [@legrandcontinent2026_venezuela_recolonisation].
 
-Rather than using its leverage first to re-establish constitutional rule and democracy in Venezuela, and then negotiating with a legitimate government capable of making credible long-term commitments, the United States appears to have prioritised the acquisition of strategic assets. Rodríguez lacks both democratic legitimacy and the political credibility required to govern the country, while the agreement is contested by large sections of the Venezuelan population. Should democratic elections eventually produce a change of government, the arrangement could be challenged, potentially giving the United States a structural incentive to delay a genuine political transition.
+Rather than using its leverage first to re-establish constitutional rule and democracy in Venezuela, and then negotiating with a legitimate government capable of making credible long-term commitments, the United States appears to have prioritised the acquisition of strategic assets. Rodríguez lacks both democratic legitimacy and the political credibility required to govern the country, while the agreement is contested by large sections of the Venezuelan population. Should democratic elections eventually produce a change of government, the arrangement could be challenged, potentially giving the United States a structural incentive to delay a genuine political transition. This dynamic is illustrated by the situation of opposition leader and Nobel Peace Prize laureate María Corina Machado, who has attempted to return to Venezuela from Panama on seven occasions, each time thwarted by a combination of technical failures, denied permits, and the refusal of neighbouring countries to grant passage, while Washington insists she is free to do so [@alandete2026_machado_venezuela]. At the UN General Assembly in September 2026, Venezuela’s interim president Delcy Rodríguez vowed that there will be elections without setting a date or offer electoral guarantees [@turkewitz2026_rodriguez_unga].
 
 At the centre of the agreement is Lorenzo Betancourt, whose company, North American Blue Energy Partners (NABEP), has reportedly been granted 100-year concessions to operate 17 oil fields containing an estimated 65 billion barrels of reserves, roughly equivalent to the total proven reserves of the United States [@romero2026_Betancourt]. Betancourt does not own the fields outright, but the concessions grant him exclusive exploitation rights. The arrangement is particularly striking in light of his legal history. Legal proceedings were initiated against him in Spain and Switzerland on money-laundering charges, and both countries requested his extradition from the United Kingdom, where he lives on a 14-bedroom country estate. British authorities arrested him less than a year ago and barred him from travelling abroad. Under the agreement between NABEP and the United States, the Pentagon holds a significant equity stake in the company. The arrangement is difficult to compare with any recent precedent in American history and places Betancourt at the centre of Venezuela’s transformation from a sovereign state into what critics describe as a vassal of the United States [@romero2026_Betancourt].
 
