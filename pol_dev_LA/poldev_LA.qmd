@@ -180,9 +180,17 @@ On ICC -
 
 ### Costa Rica
 
-*WORK IN PROGRESS*
+The February 2026 presidential and legislative elections marked an important continuation of the political shift initiated by Rodrigo Chaves, who had been president since 2022 but was constitutionally barred from seeking a second consecutive term. Chaves nevertheless remained the dominant figure behind the newly created *Partido Pueblo Soberano* (PPSO), and his former Minister of Planning, Laura Fernández Delgado, was chosen as its presidential candidate. Fernández won 48.5% of the vote in the first round, comfortably exceeding the 40% threshold required for an outright victory, making Costa Rica one of the relatively few cases in the region in recent years in which the governing political movement successfully retained the presidency [@eu_eem_2026_costa_rica]. PPSO also won 31 of the 57 seats in the Legislative Assembly, giving Fernández an absolute majority and the largest parliamentary bloc since 1982. The new government is therefore in a significantly stronger position to pass ordinary legislation and the national budget without having to negotiate with other parties [@eu_eem_2026_costa_rica].
 
-candidate for SG of UN. nominated by CR.
+Fernández's candidacy was explicitly presented as a continuation of Chaves's political project. During his presidency, Chaves adopted an increasingly confrontational stance towards other branches of government and oversight institutions, repeatedly accusing the Legislative Assembly, the judiciary, the Prosecutor General's Office, the Comptroller's Office and, most notably, the Supreme Electoral Tribunal (TSE) of obstructing his government's policies. This rhetoric contributed to declining confidence in public institutions, particularly among PPSO supporters [@eu_eem_2026_costa_rica]. Fernández has also pledged to continue Chaves's hard-line approach to security as Costa Rica faces a severe deterioration in public safety, including record levels of homicide and drug-related violence. Chaves himself has remained directly involved in government, having been appointed Minister of the Presidency and Minister of Finance in Fernández's administration, giving him a central role in coordinating the new government's political and economic agenda.
+
+Foreign policy has likewise remained closely aligned with the United States. Costa Rica has long cooperated with Washington on counternarcotics and maritime security, but this relationship deepened under Chaves and has continued under Fernández. In March 2026, Costa Rica joined the Trump administration's “Shield of the Americas” initiative against drug trafficking and organised crime. It also agreed to accept up to 25 migrants deported from the United States each week from third countries, making Costa Rica part of the Trump administration's broader effort to transfer deportees to countries other than their countries of origin [@crs_2026_costa_rica].
+
+Costa Rica nevertheless maintains significant economic ties with China. The two countries established diplomatic relations in 2007, and China has since become an important economic partner, including through a free-trade agreement, infrastructure financing and investment. Under Chaves, however, relations became more contentious, particularly over telecommunications. In 2023, Costa Rica excluded companies from countries that had not ratified the Budapest Convention on Cybercrime from participating in the development of its 5G network, effectively preventing Chinese companies such as Huawei from bidding. The decision was welcomed by Washington but criticised by Beijing and became part of a broader dispute over Chinese involvement in Costa Rica's strategic infrastructure [@crs_2026_costa_rica].
+
+Costa Rica's foreign-policy orientation therefore combines close strategic and security cooperation with Washington with continued economic relations with China. This places Costa Rica within the broader regional trend towards closer alignment with Washington, while illustrating that such alignment does not necessarily extend to disengagement from China economically.
+
+An additional important development in Costa Rica's international profile is its candidacy for the next United Nations Secretary-General. In March 2026, the government formally nominated former Vice-President and former UNCTAD (UN Trade and Development) Secretary-General Rebeca Grynspan Mayufis for the position for the 2027–2031 term [@costa_rica_2026_grynspan_unsg]. The new Fernández government subsequently reaffirmed its support for her candidacy. By September, Grynspan had emerged as the narrow frontrunner in several informal UN Security Council straw polls, although the selection process remains open. Her candidacy also reflects Costa Rica's continuing emphasis on multilateral diplomacy alongside its increasingly close security relationship with Washington.
 
 ### Cuba
 
@@ -268,7 +276,7 @@ Chinese port. US pressured them to change owner?
 
 *WORK IN PROGRESS*
 
-The GSoD Social Group Equality index measures the extent of such equality in each country. among the bottom 25 per cent globally. SEE LATEST GSoD REPORT
+In April 2023, Paraguay held general elections in a highly polarised environment marked by distrust in state institutions [@eu_eom_2023_paraguay]. Santiago Pena won the elections.
 
 ### Peru
 
