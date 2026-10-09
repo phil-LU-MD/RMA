@@ -1,0 +1,76 @@
+---
+title: "Measuring Strategic Alignment in Latin America: A Multilayer Network Approach"
+subtitle: "PhD research proposal"
+
+format: typst
+#with format typst run first this in terminal in order to copy main references doc: cp /Users/philippedecker/Documents/R/RMA/references.bib /Users/philippedecker/Documents/R/RMA/PhD/references.bib
+# with format html change bibliography to : ../references.bib
+
+author: 
+  name: "Philippe Decker"
+  email: "Philippe.Decker@mil.be"
+  affiliation: Royal Military Academy
+
+bibliography: references.bib
+csl: apa
+
+date: today
+date-format: "D/M/YY"
+
+title-block-banner: "#090620"
+title-block-banner-color: "#DB3027"
+---
+
+```{=html}
+<style>
+body {
+  text-align: justify;
+}
+</style>
+```
+
+### **Research Problem**
+
+The measurement of alignment strategies among weaker states has advanced significantly since Sims and Lee's [-@sims2025] Hedging Index for Latin America, which blends bilateral trade shares with arms procurement data using SIPRI's Trend Indicator Value series. While methodologically innovative, the index conflates three analytically distinct phenomena: structural legacy dependency, reactive adaptation to external actor behaviour, and genuine strategic hedging. The Nicaragua case illustrates this most starkly: a government openly hostile to Washington scores 0.946 on the US-alignment scale, an almost identical score to Honduras, which hosts a permanent US military base. This result reflects not strategic alignment but the invisibility of Russia as Nicaragua's actual arms supplier within a strictly bilateral US-China measurement framework. More broadly, the index treats trade flows and arms sales as signals of political alignment when they are better understood as products of market structure and supplier dominance.
+
+This research proposes to construct a superior alignment measurement framework for Latin America that addresses these limitations, drawing on a richer and more theoretically grounded set of indicators, and applying multilayer network analysis to map the evolving structure of great power competition in the hemisphere.
+
+### **Theoretical Contribution**
+
+The central theoretical contribution is a distinction between three forms of alignment behaviour that existing frameworks collapse into a single continuum. Structural dependency refers to inherited trade, financial, and security ties that constrain short-term choices regardless of political preference, such as Argentina's reliance on China's currency swap line or Ecuador's dependence on Chinese shrimp markets, despite both governments' pro-US orientations. Reactive adaptation describes alignment shifts driven by external actor behaviour rather than deliberate strategic design, as illustrated throughout the empirical record compiled in the accompanying political developments document: the DRC's drift toward China during Western disengagement under Kabila, Bolivia's rapid reorientation toward Washington under Paz following decades of Morales-era estrangement, and Honduras's alignment with Washington following Trump's explicit electoral intervention and the Hernández pardon. Strategic hedging, by contrast, denotes deliberate, sustained management of relationships with competing great powers to preserve policy autonomy, as illustrated by Panama's simultaneous hosting of US military exercises and Chinese port concessions, or Peru's purchase of US F-16s alongside its acceptance of the Chinese-financed Chancay mega-port.
+
+This typology connects to Kuik's (2021) argument that hedging is instinctive rather than strategic, driven by uncertainty about both patron reliability and threat magnitude, and to the Latin American autonomy tradition described by Sims and Lee (2025), which frames strategic ambiguity as a structural response to hierarchical pressure rather than a coherent foreign policy design. The empirical record from Latin America 2020-2026 provides important new evidence for this theoretical debate: in multiple cases, what appears as multi-vector engagement is better explained by the simultaneous pull of Chinese economic indispensability and US political coercion, a dynamic that intensified dramatically following the Trump 2025 National Security Strategy's explicit invocation of a Monroe Doctrine corollary.
+
+### **Measurement Framework**
+
+The proposed Multilayer Alignment Index (MAI) replaces the Sims and Lee bilateral trade/arms dyad with a set of indicators selected specifically to capture voluntary political alignment rather than structural dependency. The indicators are grouped into four layers, each capturing a distinct dimension of alignment behaviour.
+
+The first layer covers diplomatic and institutional signalling. This includes UNGA voting patterns on contested resolutions, specifically votes on Ukraine, Gaza, and human rights mechanisms, membership and participation in the Americas Counter-Cartel Coalition (ACCC), which currently comprises 19 member nations and serves as an explicit US alignment instrument, membership in the World AI Cooperation Organisation (WAICO), which Beijing launched in 2026 in explicit competition with the US-anchored Pax Silica framework, withdrawal from or continued membership in the International Criminal Court given US pressure to exit the institution, and free trade agreements with China, which Beijing has concluded with Chile, Costa Rica, Ecuador, Nicaragua, and Peru.
+
+The second layer covers economic and financial alignment signals that go beyond raw trade volumes. This includes the stock of Chinese foreign direct investment relative to GDP, which captures structural economic penetration more meaningfully than bilateral trade flows, the existence of BRI membership and the status of specific BRI projects, Huawei's penetration of national 5G infrastructure, the imposition of US tariffs under Section 232 or equivalent measures as a proxy for Washington's assessment of each country's alignment, and receipt of US DRL (Bureau of Democracy, Human Rights and Labour) financing, which signals US political investment in a country's domestic politics.
+
+The third layer covers security alignment signals. This includes membership in the ACCC and the Shield of the Americas, engagement with private security contractors linked to US strategic interests such as the Blackwater-affiliated arrangement in Ecuador, bilateral security agreements with the US, and the nature and conditionality of military assistance.
+
+The fourth layer covers what this research terms coercion-response indicators, a novel category not present in existing frameworks. These capture cases where US financial or diplomatic pressure has produced measurable changes in alignment behaviour: currency interventions and IMF programme conditionality linked to political outcomes as documented in Argentina and Bolivia, visa revocations targeting officials whose decisions conflicted with US interests as documented in Peru, Panama, Chile, and Colombia, and the rescission of Chinese infrastructure contracts following US pressure as documented in Panama and Costa Rica.
+
+### **Methodology**
+
+The index will be constructed for 20 Latin American states over the period 2020-2026, using a multilayer network approach implemented in R with the igraph and backbone packages, and visualised in Gephi. Each indicator layer constitutes a separate network, with edges weighted according to the strength of alignment signal. The multilayer structure allows the analysis to identify countries that appear aligned in one dimension but not others, which is precisely the analytical space where strategic hedging is most visible, and to distinguish countries whose multi-vector engagement reflects deliberate hedging from those whose apparent hedging is an artefact of structural constraints.
+
+Community detection algorithms will be applied to each layer separately and to the aggregate network to assess whether distinct blocs emerge and whether they are stable across layers. Betweenness centrality will be used to identify structural brokers. The temporal dimension will be incorporated through a panel design that tracks changes in alignment scores across the six-year period, allowing the research to identify whether shifts are reactive to external events, such as electoral interference, tariff impositions, or Chinese infrastructure deals, or reflect more sustained strategic repositioning.
+
+The empirical base will draw on primary sources including UNGA roll-call voting records, SIPRI, UN Comtrade, AEI China Global Investment Tracker, ACCC membership records, Boston University Global Development Policy Center Chinese lending data, and the primary source political developments analysis accompanying this proposal, which documents alignment shifts across all 20 countries in real time through October 2026.
+
+### **Expected Contribution**
+
+This research makes three distinct contributions. Theoretically, it provides the first systematic operationalisation of the distinction between reactive adaptation and strategic hedging in Latin America, addressing what Sims and Lee acknowledged as the most important unresolved conceptual problem in their framework. Methodologically, it introduces a multilayer network approach to alignment measurement that is more sensitive to the multidimensional nature of great power competition than existing single-index approaches. Empirically, it produces a comprehensive, reproducible alignment dataset for Latin America 2020-2026 at a moment when the region is undergoing its most significant geopolitical reorientation since the Cold War, providing a baseline against which future studies can measure the trajectory of US-China competition in the hemisphere.
+
+#### Comments
+
+title: why strategic alignment and not strategic hedging
+
+bring in the project proposal - align or see appropriate wording for intro
+
+why do we focus on weaker states? is Brazil a weak state? if not, I still want to include it.
+
+values: ICC membership/withdrawal
