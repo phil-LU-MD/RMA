@@ -37,6 +37,11 @@ body {
 
 ## Title
 
+@kuik2021 no longer exists, it is now @kuik2021_hedging
+@Koga2017 is now @koga2018_hedging
+@sims2025 is now @sims_lee2025_hedging
+
+
 @kuik2021 (p. x) defines "hedging as insurance-seeking behavior under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position."
 
 "hedging is a type of alignment behavior, where a sovereign state positions itself between two or more competing powers, while navigating a broad range of risks and uncertainties under international anarchy" [@kuik2021]. While @kuik2021 argues that "small-state hedging is caused by uncertainty" I argue that hedging is a consequence of interdependence.
