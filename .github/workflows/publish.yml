@@ -26,13 +26,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto project
+        run: quarto render PhD
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: 'PhD/_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
