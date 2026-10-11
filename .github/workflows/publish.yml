@@ -21,17 +21,26 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render all projects
+      - name: Render allies
         run: |
-          cd RMA/allies && quarto render
-          cd ../pol_dev_LA && quarto render
-          cd ../PhD && quarto render PhD.qmd
+          cd RMA/allies
+          quarto render
+
+      - name: Render pol_dev_LA
+        run: |
+          cd RMA/pol_dev_LA
+          quarto render
+
+      - name: Render PhD PDF
+        run: |
+          cd RMA/PhD
+          quarto render PhD.qmd
 
       - name: Prepare Pages output
         run: |
           mkdir -p pages_output
-          cp -r RMA/allies/_site pages_output/allies
-          cp -r RMA/pol_dev_LA/_site pages_output/pol_dev_LA
+          cp -r RMA/allies pages_output/
+          cp -r RMA/pol_dev_LA pages_output/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
