@@ -26,11 +26,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render Quarto project
-        run: quarto render PhD
+      - name: Create pages artifact
+        run: |
+          mkdir -p _site
+          cp -r allies _site/
+          cp -r pol_dev_LA _site/
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+            <head><title>Projects</title></head>
+            <body>
+              <h1>Projects</h1>
+              <ul>
+                <li><a href="allies/">Allies</a></li>
+                <li><a href="pol_dev_LA/">Political Development LA</a></li>
+              </ul>
+            </body>
+          </html>
+          EOF
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -38,7 +51,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'PhD/_site'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
