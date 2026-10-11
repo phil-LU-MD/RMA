@@ -1,4 +1,4 @@
-name: Publish Quarto projects
+name: Publish and Backup
 
 on:
   push:
@@ -10,36 +10,43 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render all projects
+        run: |
+          cd RMA/allies && quarto render
+          cd ../pol_dev_LA && quarto render
+          cd ../PhD && quarto render PhD.qmd
+
+      - name: Prepare Pages output
+        run: |
+          mkdir -p pages_output
+          cp -r RMA/allies/_site pages_output/allies
+          cp -r RMA/pol_dev_LA/_site pages_output/pol_dev_LA
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Render Quarto project
-        run: quarto render
-
-      - name: Upload website
+      - name: Upload websites to Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_book'
+          path: 'pages_output'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PhD-PDF
+          path: 'RMA/PhD/PhD.pdf'
