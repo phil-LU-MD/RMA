@@ -1,4 +1,4 @@
-name: Publish and Backup
+name: Publish Quarto projects
 
 on:
   push:
@@ -10,8 +10,16 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
 
     steps:
@@ -21,46 +29,17 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install Typst
-        uses: typst-community/setup-typst@v2
-        with:
-          version: latest
-
-      - name: Render allies
-        run: |
-          cd RMA/allies
-          quarto render
-
-      - name: Render pol_dev_LA
-        run: |
-          cd RMA/pol_dev_LA
-          quarto render
-
-      - name: Render PhD PDF
-        run: |
-          cd RMA/PhD
-          quarto render PhD.qmd
-
-      - name: Prepare Pages output
-        run: |
-          mkdir -p pages_output
-          cp -r RMA/allies pages_output/
-          cp -r RMA/pol_dev_LA pages_output/
+      - name: Render Quarto project
+        run: quarto render PhD
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload websites to Pages
+      - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'pages_output'
+          path: 'PhD/_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: PhD-PDF
-          path: 'RMA/PhD/PhD.pdf'
