@@ -21,6 +21,11 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Install Typst
+        uses: typst-community/setup-typst@v2
+        with:
+          version: latest
+
       - name: Render allies
         run: |
           cd RMA/allies
