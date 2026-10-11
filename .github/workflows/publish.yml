@@ -26,22 +26,44 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create pages artifact
+      - name: Build Pages artifact
         run: |
           mkdir -p _site
-          cp -r allies _site/
-          cp -r pol_dev_LA _site/
-          cat > _site/index.html << 'EOF'
+
+          rsync -a --prune-empty-dirs \
+            --exclude='.Rproj.user' \
+            --exclude='.Rhistory' \
+            --exclude='.Rprofile' \
+            --exclude='.DS_Store' \
+            --exclude='renv' \
+            --exclude='renv.lock' \
+            --exclude='*.Rproj' \
+            allies/ _site/allies/
+
+          rsync -a --prune-empty-dirs \
+            --exclude='.Rproj.user' \
+            --exclude='.Rhistory' \
+            --exclude='.Rprofile' \
+            --exclude='.DS_Store' \
+            --exclude='renv' \
+            --exclude='renv.lock' \
+            --exclude='*.Rproj' \
+            pol_dev_LA/ _site/pol_dev_LA/
+
+          cat > _site/index.html <<'EOF'
           <!DOCTYPE html>
-          <html>
-            <head><title>Projects</title></head>
-            <body>
-              <h1>Projects</h1>
-              <ul>
-                <li><a href="allies/">Allies</a></li>
-                <li><a href="pol_dev_LA/">Political Development LA</a></li>
-              </ul>
-            </body>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>RMA projects</title>
+          </head>
+          <body>
+            <h1>RMA projects</h1>
+            <ul>
+              <li><a href="allies/">Allies</a></li>
+              <li><a href="pol_dev_LA/">Political Development LA</a></li>
+            </ul>
+          </body>
           </html>
           EOF
 
