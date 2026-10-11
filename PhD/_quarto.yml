@@ -3,3 +3,9 @@ project:
 
 editor: visual
 
+format:
+  typst:
+    output-file: PhD.pdf
+  html:
+    output-dir: _site
+
