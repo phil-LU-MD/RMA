@@ -2,7 +2,11 @@
 title: "Measuring Strategic Hedging in Latin America: A Multilayer Network Approach"
 subtitle: "PhD research proposal"
 
-format: typst
+format:
+  typst:
+    output-file: PhD.pdf
+  html:
+    output-dir: _site
 #with format typst run first this in terminal in order to copy main references doc: cp /Users/philippedecker/Documents/R/RMA/references.bib /Users/philippedecker/Documents/R/RMA/PhD/references.bib
 # with format html change bibliography to : ../references.bib
 
