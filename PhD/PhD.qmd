@@ -39,6 +39,16 @@ The measurement of alignment strategies among weaker states has advanced signifi
 
 This research proposes to construct a superior alignment measurement framework for Latin America that addresses these limitations, drawing on a richer and more theoretically grounded set of indicators, and applying multilayer network analysis to map the evolving structure of great power competition in the hemisphere.
 
+
+While @kuik2021_hedging argues that "small-state hedging is caused by uncertainty" I argue that hedging is a consequence of interdependence.
+Hedging is implemented without pronouncement. States do not announce that they are hedging because doing so would invite punishment from both great powers [@kuik2021_hedging]. This means the analyst cannot simply look at what states say about their alignment: the behaviour must be inferred from the pattern of purposefully contradictory acts, simultaneously pleasing and displeasing each great power selectively.
+The two chessboards. @kuik2021_hedging distinguishes between the high-politics military chessboard, where the US retains dominance, and the low-politics economic and developmental chessboard, where China has made the most significant gains. The key insight is that China's influence in Southeast Asia is not primarily a function of military intimidation but of its role as an indispensable supplier of what ruling elites need domestically: infrastructure, trade, development finance, and the legitimacy that comes from economic growth. The US, by focusing overwhelmingly on the military chessboard, has systematically neglected the economic chessboard and thereby ceded influence it could otherwise retain.
+Domestic elite survival drives hedging. @kuik2021_hedging is explicit that smaller state elites are primarily concerned with domestic survival, not with abstract foreign policy preferences. External relationships are instrumentalised to serve domestic legitimacy and governance goals. This means that hedging is not purely a response to external systemic pressures but is mediated through the lens of what the ruling elite needs to stay in power.
+
+Hedging theory was developed to explain behaviour under conditions of proximate great power rivalry. The US is proximate to Latin America in a way that China is not, which means the hegemonic baseline from Sims and Lee remains relevant: the structure of US hegemony in the Western Hemisphere means that hedging must be read relatively rather than absolutely, as incremental movement away from a hegemonic baseline rather than genuine equidistance.
+
+some scholars de-emphasize the importance of economic and diplomatic variables. For example, according to @lim2015 (707–12), economic and political factors are “poor signals of security alignment” that involve “minimal tradeoffs” because the contemporary world has been already economically interdependent, and the interstate economic networks are deeper than ever before.
+
 ---
 
 version 2
