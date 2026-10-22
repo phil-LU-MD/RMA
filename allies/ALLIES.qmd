@@ -34,29 +34,25 @@ body {
 #renv::snapshot() #tells renv to update the lockfile, necessary after updating or installing new libraries
 ```
 
-
 ## Title
 
 @kuik2021 no longer exists, it is now @kuik2021_hedging
-@Koga2017 is now @koga2018_hedging
-@sims2025 is now @sims_lee2025_hedging
 
+@Koga2017 is now @koga2018_hedging
+
+@sims2025 is now @sims_lee2025_hedging
 
 @kuik2021 (p. x) defines "hedging as insurance-seeking behavior under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position."
 
-"hedging is a type of alignment behavior, where a sovereign state positions itself between two or more competing powers, while navigating a broad range of risks and uncertainties under international anarchy" [@kuik2021]. While @kuik2021 argues that "small-state hedging is caused by uncertainty" I argue that hedging is a consequence of interdependence.
+"hedging is a type of alignment behavior, where a sovereign state positions itself between two or more competing powers, while navigating a broad range of risks and uncertainties under international anarchy" [@kuik2021]. While @kuik2021_hedging argues that "small-state hedging is caused by uncertainty" I argue that hedging is a consequence of interdependence.
 
-**Hedging is implemented without pronouncement.** States do not announce that they are hedging because doing so would invite punishment from both great powers [@kuik2021]. This means the analyst cannot simply look at what states say about their alignment: the behaviour must be inferred from the pattern of purposefully contradictory acts, simultaneously pleasing and displeasing each great power selectively.
+**Hedging is implemented without pronouncement.** States do not announce that they are hedging because doing so would invite punishment from both great powers [@kuik2021]. This means the analyst cannot simply look at what states say about their alignment: the behaviour must be inferred from the pattern of purposefully contradictory acts, simultaneously pleasing and displeasing each great power selectively.
 
-**The two chessboards.** @kuik2021 distinguishes between the high-politics military chessboard, where the US retains dominance, and the low-politics economic and developmental chessboard, where China has made the most significant gains. The key insight is that China's influence in Southeast Asia is not primarily a function of military intimidation but of its role as an indispensable supplier of what ruling elites need domestically: infrastructure, trade, development finance, and the legitimacy that comes from economic growth. The US, by focusing overwhelmingly on the military chessboard, has systematically neglected the economic chessboard and thereby ceded influence it could otherwise retain.
+**The two chessboards.** @kuik2021_hedging distinguishes between the high-politics military chessboard, where the US retains dominance, and the low-politics economic and developmental chessboard, where China has made the most significant gains. The key insight is that China's influence in Southeast Asia is not primarily a function of military intimidation but of its role as an indispensable supplier of what ruling elites need domestically: infrastructure, trade, development finance, and the legitimacy that comes from economic growth. The US, by focusing overwhelmingly on the military chessboard, has systematically neglected the economic chessboard and thereby ceded influence it could otherwise retain.
 
-**Domestic elite survival drives hedging.** @kuik2021 is explicit that smaller state elites are primarily concerned with domestic survival, not with abstract foreign policy preferences. External relationships are instrumentalised to serve domestic legitimacy and governance goals. This means that hedging is not purely a response to external systemic pressures but is mediated through the lens of what the ruling elite needs to stay in power.
+**Domestic elite survival drives hedging.** @kuik2021_hedging is explicit that smaller state elites are primarily concerned with domestic survival, not with abstract foreign policy preferences. External relationships are instrumentalised to serve domestic legitimacy and governance goals. This means that hedging is not purely a response to external systemic pressures but is mediated through the lens of what the ruling elite needs to stay in power.
 
 Hedging theory was developed to explain behaviour under conditions of proximate great power rivalry. The US is proximate to Latin America in a way that China is not, which means the hegemonic baseline from Sims and Lee remains relevant: the structure of US hegemony in the Western Hemisphere means that hedging must be read relatively rather than absolutely, as incremental movement away from a hegemonic baseline rather than genuine equidistance.
-
-Panama, maybe it can be argued, tried to hedge as it sold some of its ports to Chinese companies until the US intervened.
-
-Is there still space to hedge in Latin America? case of Brazil (see grand continent article)
 
 Under Lula, it has explicitly pursued strategic autonomy, rejected pressure to sanction Russia, maintained BRI engagement while deepening ties with the EU and US. Kuik's framework would predict that Brazil will continue to hedge as long as the uncertainty about US long-term commitment and Chinese long-term intentions persists, but that the NSS's coercive framing will increase the cost of doing so, potentially pushing Brazil toward more explicit positioning.
 
@@ -70,9 +66,7 @@ adn tho @Koga2017[^1]
 
 sbfndbf @Medeiros2005
 
-
-Across Latin America, Chinese firms have financed more than 300 infrastructure projects worth over $130 billion, and increasingly dominate sectors like electronics and electric vehicles, said Enrique Dussel Peters, an economist at the National Autonomous University of Mexico. [@glatsky_2026_peru_china]
-
+Across Latin America, Chinese firms have financed more than 300 infrastructure projects worth over \$130 billion, and increasingly dominate sectors like electronics and electric vehicles, said Enrique Dussel Peters, an economist at the National Autonomous University of Mexico. [@glatsky_2026_peru_china]
 
 ### Brazil
 
