@@ -24,6 +24,21 @@ format:
             .logo-clickable-zone {
               cursor: pointer !important;
             }
+            
+            /* Allies logo: right side of the author / updated row */
+            .quarto-title-meta {
+              position: relative !important;
+            }
+            .allies-logo-link {
+              position: absolute;
+              top: 0;
+            }
+            .allies-logo-link img {
+              height: 100px !important;
+              max-height: none !important;
+              max-width: none !important;
+              width: auto !important;
+            }
             </style>
             <script>
             document.addEventListener("DOMContentLoaded", function() {
@@ -37,11 +52,36 @@ format:
                   var bannerWidth = banner.offsetWidth;
                   var clickX = e.clientX - banner.getBoundingClientRect().left;
                   
-                  /* Detects if the click occurred on the right 25% area of the banner banner */
+                  /* Detects if the click occurred on the right 25% area of the banner */
                   if (clickX > (bannerWidth * 0.75)) {
                     window.open("https://rma.ac.be", "_blank");
                   }
                 });
+              }
+              
+              // Adds the clickable allies logo to the author / updated row
+              var meta = document.querySelector(".quarto-title-meta");
+              if (meta) {
+                var a = document.createElement("a");
+                a.className = "allies-logo-link";
+                a.href = "https://researchportal.rma.ac.be/en/projects/alignment-logics-and-layers-in-international-engagement-strategie/";
+                a.target = "_blank";
+                a.rel = "noopener";
+                a.innerHTML = '<img src="allies_logo.png" alt="ALLIES logo">';
+                meta.appendChild(a);
+                
+                // Centers the allies logo under the RMA logo (background at right 10%, 80px tall, 141px wide)
+                function placeAllies() {
+                  if (!banner) return;
+                  var b = banner.getBoundingClientRect();
+                  var centerX = b.left + 0.9 * (b.width - 141) + 141 / 2;
+                  var img = a.querySelector("img");
+                  var w = img.offsetWidth || 60;
+                  a.style.left = (centerX - w / 2 - meta.getBoundingClientRect().left) + "px";
+                }
+                a.querySelector("img").addEventListener("load", placeAllies);
+                placeAllies();
+                window.addEventListener("resize", placeAllies);
               }
             });
             </script>
@@ -362,7 +402,7 @@ The October 2026 municipal elections provided an early indication of the challen
 
 One of the most consequential aspects of Paraguay’s foreign policy is its continued diplomatic recognition of Taiwan. Paraguay is the only remaining country in South America and one of just twelve worldwide to maintain formal diplomatic relations with Taiwan. Under Peña, the government has repeatedly reaffirmed this commitment, including during his visit to Taipei in May 2026. The relationship encompasses cooperation in education, technology, and security, as well as access for Paraguayan agricultural exports to the Taiwanese market. However, the Taiwanese market cannot compete with the Chinese one, and there is growing pressure from Paraguayan farmers to abandon the relationship with Taipei and establish formal ties with Beijing [@elliott_desantis_2023_paraguay_pena_cartes]. Despite the absence of formal diplomatic relations, Paraguay maintains substantial trade with China, valued at approximately \$5 billion in 2024. Paraguayan officials have indicated openness to commercial and other relations with Beijing, but have stated they will not accept the condition of severing ties with Taiwan [@johnson_wu_2024_paraguay_taiwan_china].
 
-The dispute intensified in October 2026 when China imposed sanctions on Paraguay’s Minister of Information and Communication Technologies, Gustavo Villate, and Belize’s foreign minister over their countries’ continued ties with Taiwan. Beijing accused the officials of supporting Taiwan’s independence and spreading disinformation about Chinese cyberattacks. The measures included asset freezes in China, entry restrictions, and a ban on Chinese organisations and individuals cooperating with the sanctioned officials; their practical impact is largely symbolic [@reuters_2026_china_sanctions_paraguay_taiwan]. Paraguay rejected the sanctions and reiterated its support for Taiwan, while the US State Department condemned them as coercive measures against countries exercising their sovereign foreign-policy choices [@abc_color_2026_paraguay_china_sanctions; @reuters_2026_us_china_coercion_paraguay].
+The dispute intensified in October 2026 when China imposed sanctions on Paraguay’s Minister of Information and Communication Technologies, Gustavo Villate, and Belize’s foreign minister over their countries’ continued ties with Taiwan. Beijing accused the officials of supporting Taiwan’s independence and spreading disinformation about Chinese cyberattacks. The measures included asset freezes in China, entry restrictions, and a ban on Chinese organisations and individuals cooperating with the sanctioned officials; their practical impact is largely symbolic [@lee_blanchard_2026_china_sanctions_belize_taiwan]. Paraguay rejected the sanctions and reiterated its support for Taiwan, while the US State Department condemned them as coercive measures against countries exercising their sovereign foreign-policy choices [@abc_color_2026_paraguay_china_sanctions; @reuters_2026_us_opposes_china_coercion].
 
 ### Peru
 

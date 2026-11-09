@@ -99,7 +99,7 @@ In this family, associated with Ciorciari's limited alignment, Lim and Cooper's 
 
 1.  Entrapment and provocation, meaning being drawn into the patron's confrontations or being treated as a target by its rivals. The call by two former Chilean presidents for Chile to reconsider joining the Shield of the Americas, on the grounds that it should not be forced to choose sides [@sanhueza_2026_kast_escudo_americas], is a debate about this risk.
 2.  Loss of autonomy through conditionality, which the US National Security Strategy makes explicit by making alliances and aid contingent on winding down non-hemispheric influence [@whitehouse2025].
-3.  Retaliation by the other pole, as when the Chinese embassy objected to Costa Rica's 5G rules [@reuters_2023_costa_rica_huawei_5g] or when China sanctioned a Paraguayan minister over Paraguay's ties with Taiwan [@reuters_2026_china_sanctions_paraguay_taiwan].
+3.  Retaliation by the other pole, as when the Chinese embassy objected to Costa Rica's 5G rules [@reuters_2023_costa_rica_huawei_5g] or when China sanctioned a Paraguayan minister over Paraguay's ties with Taiwan [@lee_blanchard_2026_china_sanctions_belize_taiwan].
 4.  Domestic and regional costs, such as Mercosur's common commercial policy constraining Uruguay's trade ambitions [@chu_2026_uruguay_rcep].
 5.  Unreliability of the patron, which is Kuik's uncertainty about principal support. The lifting of US sanctions on Paraguay's former president after pro-US policy decisions [@ofac_2025_cartes_sanctions_removal; @blair_2025_cartes_sanctions_scrapped] shows how support can be transactional and reversible.
 
@@ -159,6 +159,16 @@ Korolev 2019
 Cook et al.
 
 Adins 2026
+
+#### Notes
+
+As Cheng-Chwee (2008) and Kuik (2021, 2022) defines it, hedging represents “insurance-seeking behaviour under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position.”
+
+The definitional contours of hedging centre on three core elements. Firstly, involves economic returns-maximisation through engagement with multiple great powers simultaneously, allowing states to capture cooperation benefits without exclusive dependence on any single partner. This economic dimension reflects what Wu (2024) describes as “an active pursuit of maximizing economic and security interests” rather than mere passive balancing. Unlike bandwagoning, hedging maintains diversified economic portfolios that reduce vulnerability to coercion whilst enabling states to leverage great power competition for enhanced benefits.
+
+Secondly, hedging encompasses security risk-management strategies that avoid entrapment risks associated with formal military alliances whilst maintaining access to security partnerships. This involves what Jackson (2014) characterises as tactics including “bandwagoning, limited resistance and involvement” positioned as “an insurance position between the two simple tactics of balancing and bandwagoning.” By maintaining limited security cooperation with multiple powers, hedging states can access security benefits whilst preserving strategic autonomy and avoiding formal alliance commitments.
+
+Thirdly, preservation of strategic flexibility constitutes the overarching logic binding hedging’s economic and security dimensions. This flexibility enables states to adjust their foreign policy orientation in response to changing power distributions without being constrained by rigid commitments. Wang (2021) notes that hedging allows countries to “maintain the balance of power in the region so as to lower the risks when they have chosen the side incorrectly,” effectively functioning as “a strategy of deferred-bandwagoning.”
 
 #### Books
 

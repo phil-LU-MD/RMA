@@ -40,7 +40,7 @@ body {
 
 @Koga2017 is now @koga2018_hedging
 
-@sims2025 is now @sims_lee2025_hedging
+@sims2025 is now @sims_lee_2025_hedging_hegemony
 
 @kuik2021 (p. x) defines "hedging as insurance-seeking behavior under situations of high uncertainty and high stakes, where a rational state avoids taking sides and pursues opposite measures vis-à-vis competing powers to have a fallback position."
 
@@ -56,7 +56,7 @@ Hedging theory was developed to explain behaviour under conditions of proximate 
 
 Under Lula, it has explicitly pursued strategic autonomy, rejected pressure to sanction Russia, maintained BRI engagement while deepening ties with the EU and US. Kuik's framework would predict that Brazil will continue to hedge as long as the uncertainty about US long-term commitment and Chinese long-term intentions persists, but that the NSS's coercive framing will increase the cost of doing so, potentially pushing Brazil toward more explicit positioning.
 
-some scholars de-emphasize the importance of economic and diplomatic variables. For example, according to @lim2015 (707–12), economic and political factors are “poor signals of security alignment” that involve “minimal tradeoffs” because the contemporary world has been already economically interdependent, and the interstate economic networks are deeper than ever before.
+some scholars de-emphasize the importance of economic and diplomatic variables. For example, according to @lim2015_reassessing (707–12), economic and political factors are “poor signals of security alignment” that involve “minimal tradeoffs” because the contemporary world has been already economically interdependent, and the interstate economic networks are deeper than ever before.
 
 bla bla bla [@sims2025]
 
@@ -64,7 +64,7 @@ adn tho @Koga2017[^1]
 
 [^1]: info on inserting citations: <https://quarto.org/docs/visual-editor/technical.html>
 
-sbfndbf @Medeiros2005
+sbfndbf @medeiros2005_strategic
 
 Across Latin America, Chinese firms have financed more than 300 infrastructure projects worth over \$130 billion, and increasingly dominate sectors like electronics and electric vehicles, said Enrique Dussel Peters, an economist at the National Autonomous University of Mexico. [@glatsky_2026_peru_china]
 
