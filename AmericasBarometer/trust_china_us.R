@@ -279,7 +279,7 @@ direct_labels_fr <- list(
   subtitle = "Tous les pays d'Amérique latine confondus",
   annotation = "La confiance envers la Chine dépasse\ncelle envers le gouvernement américain",
   x = "Cycle d'enquête",
-  caption = "Élaboration propre, source : LAPOP AmericasBarometer",
+  caption = "Graphique: Philippe Decker \u2022 Source: LAPOP AmericasBarometer",
   pct = \(x) paste0(x, " %"),
   dx = 2.5,
   suffix = ""
@@ -306,6 +306,34 @@ for (lab in list(direct_labels_fr, direct_labels_en)) {
   ggsave(paste0(base, ".png"), p, width = 8, height = 4.5, dpi = 600)
   ggsave(paste0(base, ".pdf"), p, width = 8, height = 4.5, device = cairo_pdf)
 }
+
+# Variation: same as the direct-label version, with hrbrthemes::theme_ipsum_archivo()
+# (needs hrbrthemes >= 0.9.5 and the Archivo SemiCondensed fonts: see hrbrthemes::import_archivo())
+library(hrbrthemes)
+
+plot_trust_direct_ipsum <- function(lab) {
+  p <- plot_trust_direct(lab)
+  # Text layers (period labels, annotation) use the theme font too
+  for (i in seq_along(p$layers)) {
+    if (inherits(p$layers[[i]]$geom, "GeomText")) p$layers[[i]]$aes_params$family <- font_ar
+  }
+  # Adding a complete theme replaces the bbc_style() settings
+  p +
+    theme_ipsum_archivo(grid = FALSE, plot_title_size = 16, subtitle_size = 14, caption_size = 10,
+                        axis_text_size = 14, axis_title_size = 12, caption_face = "plain") +
+    theme(
+      legend.position = "none",
+      plot.title = element_markdown(size = 16, face = "bold", lineheight = 1.1),
+      plot.title.position = "plot",
+      plot.caption.position = "plot",
+      plot.margin = margin(15, 20, 10, 15)
+    )
+}
+
+p <- plot_trust_direct_ipsum(direct_labels_fr)
+print(p)
+ggsave("export/trust_china_us_latin_america_direct_ipsum.png", p, width = 8, height = 4.5, dpi = 600)
+ggsave("export/trust_china_us_latin_america_direct_ipsum.pdf", p, width = 8, height = 4.5, device = cairo_pdf)
 
 # 5. Robustness: balanced panel since 2016/17 -----------------------
 
@@ -491,7 +519,7 @@ ggplot(age_groups, aes(percentage, age_group, colour = target, shape = target)) 
     x = NULL,
     colour = NULL,
     shape = NULL,
-    caption = "Élaboration propre, source : LAPOP AmericasBarometer"
+    caption = "Graphique: Philippe Decker \u2022 Source: LAPOP AmericasBarometer"
   ) +
   bbc_style() +
   theme(
@@ -543,3 +571,28 @@ age_plot <- ggplot(age_groups, aes(percentage, age_group, colour = target)) +
 age_plot
 ggsave("export/trust_china_us_by_age_direct.png", age_plot, width = 8, height = 4.5, dpi = 600)
 ggsave("export/trust_china_us_by_age_direct.pdf", age_plot, width = 8, height = 4.5, device = cairo_pdf)
+
+# Variation: same as above, with hrbrthemes::theme_ipsum_archivo()
+age_plot_ipsum <- age_plot
+for (i in seq_along(age_plot_ipsum$layers)) {
+  if (inherits(age_plot_ipsum$layers[[i]]$geom, "GeomText")) {
+    age_plot_ipsum$layers[[i]]$aes_params$family <- font_ar
+  }
+}
+age_plot_ipsum <- age_plot_ipsum +
+  theme_ipsum_archivo(
+    grid = "X", grid_col = "grey85", plot_title_size = 16, subtitle_size = 14,
+    caption_size = 10, axis_text_size = 14, caption_face = "plain"
+  ) +
+  theme(
+    legend.position = "none",
+    axis.title.y = element_blank(),
+    plot.title = ggtext::element_markdown(size = 16, face = "bold", lineheight = 1.1),
+    plot.title.position = "plot",
+    plot.caption.position = "plot",
+    plot.margin = margin(15, 20, 10, 15)
+  )
+
+age_plot_ipsum
+ggsave("export/trust_china_us_by_age_direct_ipsum.png", age_plot_ipsum, width = 8, height = 4.5, dpi = 600)
+ggsave("export/trust_china_us_by_age_direct_ipsum.pdf", age_plot_ipsum, width = 8, height = 4.5, device = cairo_pdf)
