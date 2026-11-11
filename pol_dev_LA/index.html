@@ -76,78 +76,42 @@ background: #090620;
       }
 </style>
 <style>
-/* Handles the visual rendering of the logo inside the banner */
+/* Both logos are banner backgrounds (as the original RMA logo was) */
 .quarto-title-block .quarto-title-banner {
   position: relative !important;
-  background-image: url("RMA_logo_white.png") !important;
-  background-repeat: no-repeat !important;
-  background-position: right 10% center !important; /* Distance from right side */
-  background-size: auto 80px !important;            /* Logo height adjustment */
+  background-image: url("RMA_logo_white.png"), url("allies_logo.png") !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: var(--rma-x, 2%) center, right 10% center !important;
+  background-size: auto 80px, auto 80% !important;
 }
-
-/* Turns the cursor into a pointer icon when hovering over the logo zone */
-.logo-clickable-zone {
-  cursor: pointer !important;
-}
-
-/* Allies logo: right side of the author / updated row */
-.quarto-title-meta {
-  position: relative !important;
-}
-.allies-logo-link {
-  position: absolute;
-  top: 0;
-}
-.allies-logo-link img {
-  height: 100px !important;
-  max-height: none !important;
-  max-width: none !important;
-  width: auto !important;
-}
+.logo-clickable-zone { cursor: pointer !important; }
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var banner = document.querySelector(".quarto-title-block .quarto-title-banner");
-  if (banner) {
-    // Adds the pointer class to the banner
-    banner.classList.add("logo-clickable-zone");
+  if (!banner) return;
+  banner.classList.add("logo-clickable-zone");
 
-    // Triggers the hyperlink when clicking the right side where the logo lives
-    banner.addEventListener("click", function(e) {
-      var bannerWidth = banner.offsetWidth;
-      var clickX = e.clientX - banner.getBoundingClientRect().left;
-
-      /* Detects if the click occurred on the right 25% area of the banner */
-      if (clickX > (bannerWidth * 0.75)) {
-        window.open("https://rma.ac.be", "_blank");
-      }
-    });
+  // Align the RMA logo with the left edge of the table-of-contents column
+  function placeRMA() {
+    var side = document.getElementById("quarto-sidebar-toc-left");
+    if (!side) return;
+    var x = side.getBoundingClientRect().left - banner.getBoundingClientRect().left;
+    banner.style.setProperty("--rma-x", Math.max(x, 0) + "px");
   }
+  placeRMA();
+  window.addEventListener("resize", placeRMA);
 
-  // Adds the clickable allies logo to the author / updated row
-  var meta = document.querySelector(".quarto-title-meta");
-  if (meta) {
-    var a = document.createElement("a");
-    a.className = "allies-logo-link";
-    a.href = "https://researchportal.rma.ac.be/en/projects/alignment-logics-and-layers-in-international-engagement-strategie/";
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.innerHTML = '<img src="allies_logo.png" alt="ALLIES logo">';
-    meta.appendChild(a);
-
-    // Centers the allies logo under the RMA logo (background at right 10%, 80px tall, 141px wide)
-    function placeAllies() {
-      if (!banner) return;
-      var b = banner.getBoundingClientRect();
-      var centerX = b.left + 0.9 * (b.width - 141) + 141 / 2;
-      var img = a.querySelector("img");
-      var w = img.offsetWidth || 60;
-      a.style.left = (centerX - w / 2 - meta.getBoundingClientRect().left) + "px";
+  // Left 25% opens RMA, right 25% opens the ALLIES project page
+  banner.addEventListener("click", function(e) {
+    var w = banner.offsetWidth;
+    var x = e.clientX - banner.getBoundingClientRect().left;
+    if (x < w * 0.25) {
+      window.open("https://rma.ac.be", "_blank");
+    } else if (x > w * 0.75) {
+      window.open("https://researchportal.rma.ac.be/en/projects/alignment-logics-and-layers-in-international-engagement-strategie/", "_blank");
     }
-    a.querySelector("img").addEventListener("load", placeAllies);
-    placeAllies();
-    window.addEventListener("resize", placeAllies);
-  }
+  });
 });
 </script>
 
