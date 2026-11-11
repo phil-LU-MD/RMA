@@ -8,6 +8,7 @@ format:
       toc-depth: 3
       toc-title: "Countries"
       toc-float: true
+      embed-resources: true
       include-in-header:
         - text: |
             <style>
@@ -103,6 +104,8 @@ h3 {
 In recent years, Latin America has experienced a rightward shift as voters have turned against incumbent left-wing governments. The trend began in Argentina in 2023, when Javier Milei defeated the Peronist governing coalition, and continued in Bolivia, Chile and Honduras in 2025, where left-led governments lost power. In 2026, the trend continued with Keiko Fujimori’s victory in Peru, while Abelardo De La Espriella’s election in Colombia brought the country’s brief experience of left-wing government to an end.
 
 These electoral shifts also align with the Trump administration’s explicitly stated ambitions for the region. The US National Security Strategy published in November 2025 calls for Washington to “restore American preeminence in the Western Hemisphere” and pledges to “reward and encourage” governments, parties and movements broadly aligned with US principles and strategy [@whitehouse2025, 15]. Trump has also intervened overtly in several electoral campaigns by publicly endorsing ideologically aligned candidates, including in Colombia, Chile and Honduras, and backing Javier Milei’s political camp ahead of Argentina’s 2025 mid-term elections. “Lots of people that I got elected”, he said in September 2026 [@bloomfield_trump_south_america_2026]. However, these interventions do not by themselves explain the region’s political trajectory. ECLAC’s comparative analysis of 16 Latin American countries found that, between 2015 and 2025, incumbent parties or coalitions lost 74 per cent of presidential elections, compared with 44 per cent between 2003 and 2014 [@salazar_xirinachs_boeninger_2026_endogenous_governance]. Recent continuity cases include Mexico, Paraguay, the Dominican Republic, El Salvador and Ecuador, as well as Costa Rica, where Laura Fernández promised continuity with Rodrigo Chaves. The pattern therefore suggests that the current rightward shift is driven in significant part by a broader cycle of anti-incumbency, in which voters punish governments for perceived failures to deliver on security, economic conditions and other immediate concerns. Since voters have increasingly turned against incumbent left-wing governments in favour of anti-establishment challengers, often radical right-wing or far-right outsiders, this discontent has frequently translated into a shift to the right. US endorsements and political pressure may reinforce that shift, but they are not sufficient to explain it.
+
+![](../UN_Comtrade/export/latam_partner_heatmap_2025.png){fig-align="center"}
 
 ### Argentina
 
