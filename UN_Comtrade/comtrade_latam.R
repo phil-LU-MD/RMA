@@ -46,8 +46,17 @@ plots <- trade |>
   map(\(d) {
     ggplot(d, aes(year, value / 1e9, color = partner)) +
       geom_line(linewidth = 1) +
+      ggrepel::geom_text_repel(
+        data = slice_max(d, year, by = partner),
+        aes(label = partner), hjust = 0, direction = "y", nudge_x = 0.3,
+        xlim = c(NA, Inf), segment.color = NA, fontface = "bold"
+      ) +
+      scale_x_continuous(breaks = c(2005, 2015, 2025),
+                         expand = expansion(mult = c(0.02, 0.15))) +
+      coord_cartesian(clip = "off") +
+      guides(color = "none") +
       labs(title = paste("Exports from", d$reporter[1]), x = NULL,
-           y = "Exports (USD billions)", color = "Destination")
+           y = "Exports (USD billions)")
   })
 
 plots
@@ -188,7 +197,20 @@ plot_top_partners <- function(iso, start_year = 2000, end_year = 2025, n = 5, re
     ggplot(aes(year, value / 1e9, color = partner)) +
     geom_line(linewidth = 1) +
     geom_hline(yintercept = 0, linewidth = 1, colour = "#333333") +
-    scale_color_manual(values = colors_for(top_partners)) +
+    # Direct labels at the last year with data for each partner
+    ggrepel::geom_text_repel(
+      data = \(d) d |> filter(!is.na(value)) |> slice_max(year, by = partner),
+      aes(label = partner), hjust = 0, direction = "y", nudge_x = 0.3,
+      xlim = c(NA, Inf), segment.color = NA, fontface = "bold", size = 4,
+      box.padding = 0.5, force = 2, max.iter = 20000
+    ) +
+    scale_color_manual(values = colors_for(top_partners), guide = "none") +
+    # Ticks every 5 years, counted back from the latest year so it is always labelled
+    scale_x_continuous(
+      breaks = \(lim) rev(seq(latest, ceiling(lim[1]), by = -5)),
+      expand = expansion(mult = c(0.02, 0.15))
+    ) +
+    coord_cartesian(clip = "off") +
     labs(
       title = paste0(country, "'s top ", n, " trading partners"),
       subtitle = "Exports + imports",
