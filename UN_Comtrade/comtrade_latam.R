@@ -6,7 +6,8 @@ set_primary_comtrade_key(Sys.getenv("COMTRADE_PRIMARY_KEY"))
 
 latam <- c(
   "ARG", "BOL", "BRA", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV",
-  "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "URY", "VEN"
+  "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "URY", "VEN",
+  "BLZ", "SUR", "GUY"
 )
 
 # Pull one reporter at a time to stay within free-tier request limits
@@ -55,7 +56,7 @@ plots <- trade |>
                          expand = expansion(mult = c(0.02, 0.15))) +
       coord_cartesian(clip = "off") +
       guides(color = "none") +
-      labs(title = paste("Exports from", d$reporter[1]), x = NULL,
+      labs(title = paste("Exports from", str_remove(d$reporter[1], " \\(Plurinational State of\\)")), x = NULL,
            y = "Exports (USD billions)")
   })
 
@@ -164,7 +165,7 @@ get_partner_trade <- function(iso, start_year, end_year, refresh = FALSE) {
 plot_top_partners <- function(iso, start_year = 2000, end_year = 2025, n = 5, refresh = FALSE) {
   iso <- toupper(iso)
   raw <- get_partner_trade(iso, start_year, end_year, refresh)
-  country <- na.omit(raw$reporter_desc)[1]
+  country <- na.omit(raw$reporter_desc)[1] |> str_remove(" \\(Plurinational State of\\)")
 
   trade <- raw |>
     # Drop empty placeholder rows and non-country categories (Free Zones, regional "nes" groups)
@@ -326,6 +327,9 @@ plot_partner_heatmap <- function(year = 2025, n = 5, countries = latam) {
          width = 900 / 72, height = 640 / 72, dpi = 72)
   p
 }
+
+# Generate and save the heatmap (export/latam_partner_heatmap_2025.png, 900x640 px)
+plot_partner_heatmap()
 
 # plot_partner_heatmap()                       # 2025, partners in any country's top 5
 # plot_partner_heatmap(year = 2022, n = 3)     # another year, fewer partners
