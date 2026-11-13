@@ -34,8 +34,10 @@ get_exports <- function(iso) {
   }) |> list_rbind()
 }
 
-raw <- map(latam, get_exports) |> list_rbind()
-saveRDS(raw, "import/comtrade_latam_exports.rds")
+# Download once, then reuse the saved copy. To force a fresh download later, uncomment lines 38–39 and run them once.
+# raw <- map(latam, get_exports) |> list_rbind()
+# saveRDS(raw, "import/comtrade_latam_exports.rds")
+raw <- readRDS("import/comtrade_latam_exports.rds")
 
 trade <- raw |>
   select(year = period, reporter = reporter_desc, partner = partner_desc, value = primary_value) |>
@@ -237,6 +239,163 @@ plot_top_partners <- function(iso, start_year = 2000, end_year = 2025, n = 5, re
 # plot_top_partners("BRA", n = 8)                          # top 8 partners
 # plot_top_partners("MEX", start_year = 2015, end_year = 2024, n = 6)
 # plot_top_partners("COL", refresh = TRUE)                 # re-download instead of using the cache
+
+# ---- Main goods/services traded with one partner ----
+# Downloads (and caches) all commodity lines for one reporter-partner-year.
+# Partner can be an ISO3 code or "EU27" (members are summed into one bloc).
+get_commodity_trade <- function(iso, partner, year, flow = "Export",
+                                type = c("goods", "services"), refresh = FALSE) {
+  iso <- toupper(iso)
+  type <- match.arg(type)
+  flow <- match.arg(flow, c("Export", "Import"))
+  partner <- toupper(partner)
+  cache <- file.path(
+    "import",
+    paste0("comtrade_", tolower(iso), "_", tolower(partner), "_", tolower(type),
+           "_", tolower(flow), "_", year, ".rds")
+  )
+  if (file.exists(cache) && !refresh) {
+    return(readRDS(cache))
+  }
+  partners <- if (partner == "EU27") eu27 else partner
+  raw <- ct_get_data(
+    type = type,
+    commodity_classification = if (type == "goods") "HS" else "EB10",
+    commodity_code = "everything",
+    flow_direction = flow,
+    reporter = iso,
+    partner = partners,
+    start_date = year,
+    end_date = year,
+    frequency = "A"
+  )
+  dir.create("import", showWarnings = FALSE)
+  saveRDS(raw, cache)
+  raw
+}
+
+# Commodity descriptions are very long; keep the first clause and trim
+shorten_label <- function(x, width = 44) {
+  x |>
+    str_remove("^[0-9.]+\\s+") |>
+    str_remove(";.*$") |>
+    str_trim() |>
+    str_trunc(width)
+}
+
+# plot_top_commodities(): horizontal bar chart of the main goods (or services)
+# one country trades with a single partner in a given year.
+#
+# Arguments
+#   iso      Reporter ISO3 code, e.g. "ARG", "CHL", "MEX"
+#   partner  Partner ISO3 code or "EU27", e.g. "CHN", "USA"
+#   year     Year to report (default 2025)
+#   n        Number of items shown (default 10)
+#   flow     "Export" (default) or "Import"
+#   type     "goods" (default, HS 2-digit chapters) or "services" (EBOPS top categories)
+#   refresh  TRUE forces a new download instead of using the cache in import/
+#
+# Bars are sorted biggest to smallest. Share labels are the item's share of the
+# country's total trade in that category with the partner.
+plot_top_commodities <- function(iso, partner, year = 2025, n = 10,
+                                 flow = "Export", type = c("goods", "services"),
+                                 refresh = FALSE) {
+  iso <- toupper(iso)
+  partner <- toupper(partner)
+  type <- match.arg(type)
+  flow <- match.arg(flow, c("Export", "Import"))
+
+  raw <- get_commodity_trade(iso, partner, year, flow, type, refresh)
+  if (!"primary_value" %in% names(raw) || nrow(raw) == 0) {
+    hint <- if (type == "services") {
+      paste0("\nBilateral services data is very sparse in UN Comtrade (most reporters ",
+             "only publish services totals against World). Try type = \"goods\".")
+    } else ""
+    stop("No ", type, " data for ", iso, " -> ", partner, " in ", year, ".", hint)
+  }
+
+  country <- na.omit(raw$reporter_desc)[1] |>
+    str_remove(" \\(Plurinational State of\\)")
+  partner_name <- if (partner == "EU27") "the EU" else na.omit(raw$partner_desc)[1]
+
+  # Goods: HS 2-digit chapters. Services: top-level EBOPS categories.
+  # Total rows are dropped so shares are computed against the sum of categories.
+  level <- if (type == "goods") 2 else 1
+  items <- raw |>
+    filter(!is.na(primary_value), aggr_level == level) |>
+    summarise(value = sum(primary_value, na.rm = TRUE), .by = c(cmd_code, cmd_desc)) |>
+    filter(value > 0)
+
+  items <- items |>
+    mutate(share = value / sum(value), label = shorten_label(cmd_desc))
+
+  # Truncation can make two chapters share a label (e.g. HS 61 and 62), which would
+  # collapse them into one stacked bar. Disambiguate duplicates with the code.
+  dup <- duplicated(items$label) | duplicated(items$label, fromLast = TRUE)
+  items$label[dup] <- paste0(items$label[dup], " (", items$cmd_code[dup], ")")
+
+  # Ascending order so the biggest bar sits at the top after coord_flip()
+  items <- mutate(items, label = fct_reorder(label, value))
+
+  top <- slice_max(items, value, n = n)
+
+  # Use millions for small bilateral flows (< 10 billion) so the axis stays readable
+  unit <- if (max(top$value) < 1e10) {
+    list(divisor = 1e6, label = "USD millions")
+  } else {
+    list(divisor = 1e9, label = "USD billions")
+  }
+
+  p <- ggplot(top, aes(label, value / unit$divisor)) +
+    geom_col(fill = "#1F5FA8", width = 0.7) +
+    # Share labels just past the end of each bar (readable for short bars too)
+    geom_text(aes(label = scales::percent(share, accuracy = 1)), hjust = -0.1,
+              colour = "#222222", size = 3.5, fontface = "bold") +
+    coord_flip() +
+    scale_y_continuous(
+      breaks = scales::breaks_pretty(n = 4),
+      labels = scales::label_number(big.mark = ","),
+      expand = expansion(mult = c(0, 0.12))
+    ) +
+    labs(
+      title = paste0(country, "'s main ", type, " ", tolower(flow), "s"),
+      subtitle = paste0(if (flow == "Export") "to " else "from ", partner_name, ", ", year),
+      x = NULL,
+      y = unit$label,
+      caption = "Source: UN Comtrade"
+    ) +
+    bbc_style() +
+    theme(
+      # Align title/caption to the whole plot so long y labels don't push them off
+      plot.title.position = "plot",
+      plot.caption.position = "plot",
+      plot.title = element_text(size = 20),
+      plot.subtitle = element_text(size = 14, margin = margin(4, 0, 8, 0)),
+      axis.title.x = element_text(size = 14, colour = "#222222"),
+      axis.text.x = element_text(size = 12),
+      axis.text.y = element_text(size = 9),
+      # Drop the per-row gridlines
+      panel.grid.major.y = element_blank(),
+      plot.caption = element_text(size = 10, colour = "#555555", hjust = 1)
+    )
+
+  p
+}
+
+# Examples
+# plot_top_commodities("ARG", "CHN")                       # Argentina's exports to China, 2025
+# plot_top_commodities("BRA", "USA", year = 2022)          # another year
+# plot_top_commodities("CHL", "EU27", flow = "Import")     # imports from the EU
+# plot_top_commodities("MEX", "USA", flow = "Import", n = 5)  # imports, top 5
+# type = "services" is supported but bilateral services data is sparse in Comtrade
+
+# Generate the chart and save it to export/ (640x450 px, matching the other charts)
+p_commodities <- plot_top_commodities("NIC", "USA", year = 2025, n=10)
+p_commodities
+dir.create("export", showWarnings = FALSE)
+ggsave(file.path("export", "nic_top10_goods_to_usa_2025.png"), p_commodities,
+       width = 640 / 72, height = 450 / 72, dpi = 72)
+
 
 # ---- Heatmap: trade share by country and partner ----
 # plot_partner_heatmap(): rows are Latin American countries (A-Z from top to bottom), columns
