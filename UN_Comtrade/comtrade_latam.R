@@ -164,6 +164,9 @@ get_partner_trade <- function(iso, start_year, end_year, refresh = FALSE) {
 #   2022 as its latest year.
 # - Venezuela: data stops at 2013, and its USA series swings sharply in 2007-2008, which
 #   looks like a reporting problem.
+# - Haiti: in Comtrade as a reporter only for 2013-2017, with no data before or after in this
+#   pull. Its 2016 export spike looks like a one-off, and the series ends too early for the
+#   2000-2025 window. Filling 2018 onward would need mirror data (e.g. USA/China exports to Haiti).
 plot_top_partners <- function(iso, start_year = 2000, end_year = 2025, n = 5, refresh = FALSE) {
   iso <- toupper(iso)
   raw <- get_partner_trade(iso, start_year, end_year, refresh)
