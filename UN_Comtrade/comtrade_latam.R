@@ -1,5 +1,6 @@
 library(comtradr)
 library(tidyverse)
+library(ggiraph)
 
 # Key is read from the COMTRADE_PRIMARY_KEY environment variable (set in ~/.Renviron)
 set_primary_comtrade_key(Sys.getenv("COMTRADE_PRIMARY_KEY"))
@@ -406,6 +407,7 @@ ggsave(file.path("export", "nic_top10_goods_to_usa_2025.png"), p_commodities,
 # (exports + imports) in `year`. Partners shown = union of each country's top `n` partners.
 # Grey cells = no data for that country in `year` (e.g. Cuba, Venezuela, Honduras for 2025).
 # Uses the cached files in import/ (run plot_top_partners() or get_partner_trade() first).
+# Writes a PNG and an interactive HTML (hovering a value enlarges it and shows a tooltip).
 plot_partner_heatmap <- function(year = 2025, n = 5, countries = latam) {
   raw <- map(countries, \(iso) {
     get_partner_trade(iso, 2000, 2025)
@@ -450,18 +452,24 @@ plot_partner_heatmap <- function(year = 2025, n = 5, countries = latam) {
     mutate(
       share = if_else(is.na(share) & country %in% has_data, 0, share),
       country = factor(country, levels = rev(all_countries)),
-      partner = factor(partner, levels = partner_order)
+      partner = factor(partner, levels = partner_order),
+      # Hidden values get a no-break space: an empty string makes ggiraph drop the element
+      label = if_else(!is.na(share) & share >= 0.01,
+                      scales::percent(share, accuracy = 1), "\u00a0")
     )
 
   p <- ggplot(plot_data, aes(partner, country, fill = share)) +
     geom_tile(colour = "white", linewidth = 0.5) +
-    geom_text(
+    # Hovering the value label enlarges it (no tooltip box)
+    geom_text_interactive(
       aes(
-        label = if_else(!is.na(share) & share >= 0.01, scales::percent(share, accuracy = 1), ""),
+        label = label,
+        data_id = paste("label", country, partner),
         # White text on dark tiles, dark text on light tiles
         colour = !is.na(share) & share >= 0.35
       ),
-      size = 3
+      size = 3,
+      hover_css = "font-size: 18px; font-weight: bold; cursor: pointer;"
     ) +
     scale_colour_manual(values = c("FALSE" = "#222222", "TRUE" = "white"), guide = "none") +
     scale_x_discrete(position = "top") +
@@ -487,10 +495,25 @@ plot_partner_heatmap <- function(year = 2025, n = 5, countries = latam) {
   dir.create("export", showWarnings = FALSE)
   ggsave(file.path("export", paste0("latam_partner_heatmap_", year, ".png")), p,
          width = 900 / 72, height = 640 / 72, dpi = 72)
+
+  # Interactive version: hovering a value doubles its size (no tooltip box).
+  # Saved self-contained so it can be embedded in a Quarto doc.
+  girafe(
+    ggobj = p,
+    width_svg = 12, height_svg = 8.5,
+    options = list(
+      opts_hover(css = "cursor: pointer;"),
+      opts_sizing(rescale = TRUE)
+    )
+  ) |>
+    htmlwidgets::saveWidget(
+      file.path("export", paste0("latam_partner_heatmap_", year, ".html")),
+      selfcontained = TRUE
+    )
   p
 }
 
-# Generate and save the heatmap (export/latam_partner_heatmap_2025.png, 900x640 px)
+# Generate and save the heatmap (export/latam_partner_heatmap_2025.png + .html)
 plot_partner_heatmap()
 
 # plot_partner_heatmap()                       # 2025, partners in any country's top 5

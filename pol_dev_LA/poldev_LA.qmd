@@ -105,7 +105,33 @@ In recent years, Latin America has experienced a rightward shift as voters have 
 
 These electoral shifts also align with the Trump administration’s explicitly stated ambitions for the region. The US National Security Strategy published in November 2025 calls for Washington to “restore American preeminence in the Western Hemisphere” and pledges to “reward and encourage” governments, parties and movements broadly aligned with US principles and strategy [@whitehouse2025, 15]. Trump has also intervened overtly in several electoral campaigns by publicly endorsing ideologically aligned candidates, including in Colombia, Chile and Honduras, and backing Javier Milei’s political camp ahead of Argentina’s 2025 mid-term elections. “Lots of people that I got elected”, he said in September 2026 [@bloomfield_trump_south_america_2026]. However, these interventions do not by themselves explain the region’s political trajectory. ECLAC’s comparative analysis of 16 Latin American countries found that, between 2015 and 2025, incumbent parties or coalitions lost 74 per cent of presidential elections, compared with 44 per cent between 2003 and 2014 [@salazar_xirinachs_boeninger_2026_endogenous_governance]. Recent continuity cases include Mexico, Paraguay, the Dominican Republic, El Salvador and Ecuador, as well as Costa Rica, where Laura Fernández promised continuity with Rodrigo Chaves. The pattern therefore suggests that the current rightward shift is driven in significant part by a broader cycle of anti-incumbency, in which voters punish governments for perceived failures to deliver on security, economic conditions and other immediate concerns. Since voters have increasingly turned against incumbent left-wing governments in favour of anti-establishment challengers, often radical right-wing or far-right outsiders, this discontent has frequently translated into a shift to the right. US endorsements and political pressure may reinforce that shift, but they are not sufficient to explain it.
 
-![](../UN_Comtrade/export/latam_partner_heatmap_2025.png){fig-align="center"}
+```{r}
+#| echo: false
+#| results: asis
+heatmap_html <- paste(
+  readLines("../UN_Comtrade/export/latam_partner_heatmap_2025.html", warn = FALSE),
+  collapse = "\n"
+)
+# Scale the widget to the iframe width; no padding or scrollbars.
+# Rules are scoped to the inline chart so ggiraph's fullscreen modal is unaffected.
+heatmap_css <- "<style>html,body{margin:0!important;padding:0!important;overflow:hidden!important}
+#htmlwidget_container,#htmlwidget_container .html-widget,#htmlwidget_container .girafe_container_std{width:100%!important;height:auto!important}
+#htmlwidget_container svg.ggiraph-svg{width:100%!important;height:auto!important;display:block}</style>"
+# Tell the parent page when the fullscreen modal opens/closes
+heatmap_js <- "<script>new MutationObserver(function(){
+parent.postMessage({heatmapFullscreen: !!document.querySelector('.ggiraph-fullscreen-modal')}, '*');
+}).observe(document.body, {childList: true});</script>"
+heatmap_html <- sub("</head>", paste0(heatmap_css, "</head>"), heatmap_html, fixed = TRUE)
+heatmap_html <- sub("</body>", paste0(heatmap_js, "</body>"), heatmap_html, fixed = TRUE)
+cat(sprintf(
+  '<style>#heatmap-frame.hm-full{position:fixed!important;inset:0;width:100vw!important;height:100vh!important;aspect-ratio:auto!important;z-index:99999;background:white}</style>
+<iframe id="heatmap-frame" srcdoc="%s" scrolling="no" allowfullscreen style="width:100%%;aspect-ratio:864/612;border:none;display:block;"></iframe>
+<script>window.addEventListener("message", function(e) {
+  if (e.data && "heatmapFullscreen" in e.data) document.getElementById("heatmap-frame").classList.toggle("hm-full", e.data.heatmapFullscreen);
+});</script>',
+  htmltools::htmlEscape(heatmap_html, attribute = TRUE)
+))
+```
 
 ### Argentina
 
