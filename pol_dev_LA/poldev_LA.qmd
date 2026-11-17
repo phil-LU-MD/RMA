@@ -133,6 +133,9 @@ cat(sprintf(
 ))
 ```
 
+::: {style="margin-bottom: 80px;"}
+:::
+
 ### Argentina
 
 Argentina’s political trajectory since 2000 has been shaped by recurring economic crises and shifts between governments pursuing different economic models. In 2001, President Fernando de la Rúa’s government imposed the *corralito*, severely restricting withdrawals from bank accounts amid a financial collapse and the subsequent conversion of dollars deposits (a common practice among Argentines to keep savings in dollars due to the volatiliy of the pesos) into pesos at an unfavourable exchange rate. These measures fuelled mass protests and riots that forced him to resign. The crisis paved the way for the election of Néstor Kirchner in 2003, whose Peronist government pursued a more interventionist, centre-left agenda, continued under his wife Cristina Fernández de Kirchner, who succeeded him as president in 2007 following his decision not to seek re-election. Her administrations expanded state involvement in the economy and social spending. In 2015, centre-right candidate Mauricio Macri won the presidency promising market-oriented reforms and closer ties with Western economies. In 2018, Macri's government secured a US\$ 57 billion IMF programme, the largest in the Fund's history. The arrangement was widely criticised as political support for Macri ahead of the 2019 presidential election as most of the funds were disbursed before the elections [@green_2020_argentina_imf_reelection]. The programme failed to restore economic stability and Macri lost to Peronist candidate Alberto Fernández.
