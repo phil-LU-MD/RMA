@@ -1,0 +1,27 @@
+{
+  "name": "dataviz-skills",
+  "owner": {
+    "name": "Yan Holtz",
+    "url": "https://www.yan-holtz.com"
+  },
+  "metadata": {
+    "description": "Data visualization skills for AI coding agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dataviz-skills",
+      "description": "Dataviz skills: inspiration, roast-my-chart, D3 + React, ggplot2, Matplotlib, new dataviz project",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./inspiration",
+        "./roast-my-chart",
+        "./d3",
+        "./ggplot2",
+        "./matplotlib",
+        "./new-dataviz-project"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-library(comtradr)
+library(comtradr) #https://github.com/ropensci/comtradr
 library(tidyverse)
 library(ggiraph)
 
@@ -518,3 +518,99 @@ plot_partner_heatmap()
 
 # plot_partner_heatmap()                       # 2025, partners in any country's top 5
 # plot_partner_heatmap(year = 2022, n = 3)     # another year, fewer partners
+
+# ---- Mercosur vs China, EU and USA, 2025 ----
+# Grouped bar chart: one bar per power for each Mercosur country. Goods only
+# (Comtrade "TOTAL" = exports + imports of goods). Countries ordered by total trade.
+mercosur <- c("ARG", "BOL", "BRA", "PRY", "URY")
+partners_3 <- c(Chine = "China", UE = "EU27", "É.-U." = "USA")
+
+mercosur_trade <- map(mercosur, \(iso) {
+  readRDS(file.path("import", paste0("comtrade_", tolower(iso), "_partners.rds"))) |>
+    filter(as.integer(period) == 2025, !is.na(primary_value)) |>
+    mutate(partner = if_else(partner_iso %in% eu27, "EU27", partner_desc)) |>
+    summarise(value = sum(primary_value, na.rm = TRUE), .by = partner) |>
+    mutate(iso = iso)
+}) |> list_rbind()
+
+country_names <- c(
+  ARG = "Argentine", BOL = "Bolivie", BRA = "Brésil", PRY = "Paraguay", URY = "Uruguay"
+)
+
+# Country order: biggest total trade at the top
+country_order <- mercosur_trade |>
+  summarise(total = sum(value), .by = iso) |>
+  arrange(desc(total)) |>
+  pull(iso)
+top_country <- country_order[1]
+
+bar_data <- mercosur_trade |>
+  filter(partner %in% unname(partners_3)) |>
+  mutate(
+    country = factor(country_names[iso], levels = rev(country_names[country_order])),
+    # Fixed order inside each country group: Chine, UE, É.-U.
+    partner = factor(names(partners_3)[match(partner, partners_3)], levels = names(partners_3))
+  )
+
+bar_colors <- c(Chine = "#E4002B", UE = "#E0A100", "É.-U." = "#1F5FA8")
+dodge <- 0.6
+
+# Values under 10 get one decimal so the small countries stay readable
+fmt_value <- function(x) {
+  if_else(x < 10,
+          scales::number(x, accuracy = 0.1, decimal.mark = ",", big.mark = " "),
+          scales::number(x, accuracy = 1, big.mark = " "))
+}
+
+# Partner names go where the top country's value labels would be
+top_country_name <- country_names[top_country]
+
+p_mercosur <- ggplot(bar_data, aes(y = country, x = value / 1e9, fill = partner)) +
+  geom_col(position = position_dodge(width = dodge, reverse = TRUE), width = dodge) +
+  # Value at the end of every bar except the top country, which gets named instead
+  geom_text(
+    aes(label = if_else(country == top_country_name, "", fmt_value(value / 1e9))),
+    position = position_dodge(width = dodge, reverse = TRUE), hjust = -0.35,
+    size = 3.5, colour = "#444444", show.legend = FALSE
+  ) +
+  # Direct labels just after the top country's bars
+  geom_text(
+    data = \(d) filter(d, country == top_country_name),
+    aes(label = partner, colour = partner),
+    position = position_dodge(width = dodge, reverse = TRUE), hjust = -0.15,
+    size = 4.2, fontface = "bold", show.legend = FALSE
+  ) +
+  scale_fill_manual(values = bar_colors, guide = "none") +
+  scale_colour_manual(values = bar_colors, guide = "none") +
+  scale_x_continuous(
+    breaks = scales::breaks_pretty(n = 6),
+    labels = scales::label_number(big.mark = " "),
+    expand = expansion(mult = c(0, 0.18))
+  ) +
+  coord_cartesian(clip = "off") +
+  labs(
+    title = "L'UE face à la Chine et aux États-Unis en Amérique du Sud",
+    subtitle = "Pays du Mercosur, 2025. Exportations et importations (hors services)",
+    x = "Milliards de dollars US",
+    y = NULL,
+    caption = "Source : UN Comtrade"
+  ) +
+  bbc_style() +
+  theme(
+    plot.title.position = "plot",
+    plot.caption.position = "plot",
+    plot.title = element_text(size = 17),
+    plot.subtitle = element_text(size = 13, margin = margin(4, 0, 10, 0)),
+    axis.title.x = element_text(size = 10, colour = "#222222"),
+    axis.text.x = element_text(size = 10),
+    axis.text.y = element_text(size = 13),
+    panel.grid.major.y = element_blank(),
+    panel.grid.major.x = element_line(colour = "#DDDDDD", linewidth = 0.4),
+    plot.caption = element_text(size = 10, colour = "#555555", hjust = 1)
+  )
+
+p_mercosur
+
+dir.create("export", showWarnings = FALSE)
+ggsave(file.path("export", "mercosur_china_eu_usa_2025.png"), p_mercosur,
+       width = 640 / 72, height = 480 / 72, dpi = 72)
